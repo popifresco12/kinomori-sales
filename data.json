@@ -13,7 +13,7 @@
   "fotos": 28,
   "lineas": 839,
   "platos_unicos": 67,
-  "bebidas_unicas": 20
+  "bebidas_unicas": 17
  },
  "fotos": [
   {
@@ -378,20 +378,20 @@
    "categoria": "Bebidas"
   },
   {
+   "nombre": "Water",
+   "tipo": "Bebida",
+   "veces": 52,
+   "cantidad": 74,
+   "ingreso_mad": 1280,
+   "precio_medio": 20,
+   "categoria": "Bebidas"
+  },
+  {
    "nombre": "Sparkling Water",
    "tipo": "Bebida",
    "veces": 35,
    "cantidad": 48,
    "ingreso_mad": 862,
-   "precio_medio": 10,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Water",
-   "tipo": "Bebida",
-   "veces": 20,
-   "cantidad": 37,
-   "ingreso_mad": 390,
    "precio_medio": 10,
    "categoria": "Bebidas"
   },
@@ -405,39 +405,12 @@
    "categoria": "Bebidas"
   },
   {
-   "nombre": "Water Bottle",
-   "tipo": "Bebida",
-   "veces": 15,
-   "cantidad": 17,
-   "ingreso_mad": 640,
-   "precio_medio": 20,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Water Small",
-   "tipo": "Bebida",
-   "veces": 11,
-   "cantidad": 13,
-   "ingreso_mad": 110,
-   "precio_medio": 10,
-   "categoria": "Bebidas"
-  },
-  {
    "nombre": "Bubble T Taro",
    "tipo": "Bebida",
    "veces": 7,
    "cantidad": 10,
    "ingreso_mad": 235,
    "precio_medio": 55,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Water Big",
-   "tipo": "Bebida",
-   "veces": 6,
-   "cantidad": 7,
-   "ingreso_mad": 140,
-   "precio_medio": 20,
    "categoria": "Bebidas"
   },
   {
@@ -455,6 +428,33 @@
    "veces": 5,
    "cantidad": 5,
    "ingreso_mad": 45,
+   "precio_medio": 15,
+   "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Orange Juice",
+   "tipo": "Bebida",
+   "veces": 4,
+   "cantidad": 5,
+   "ingreso_mad": 130,
+   "precio_medio": 20,
+   "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Bubble T Coco",
+   "tipo": "Bebida",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 0,
+   "precio_medio": null,
+   "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Tonic Water",
+   "tipo": "Bebida",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 30,
    "precio_medio": 15,
    "categoria": "Bebidas"
   }
@@ -1075,20 +1075,20 @@
    "categoria": "Bebidas"
   },
   {
+   "nombre": "Water",
+   "tipo": "Bebida",
+   "veces": 52,
+   "cantidad": 74,
+   "ingreso_mad": 1280,
+   "precio_medio": 20,
+   "categoria": "Bebidas"
+  },
+  {
    "nombre": "Sparkling Water",
    "tipo": "Bebida",
    "veces": 35,
    "cantidad": 48,
    "ingreso_mad": 862,
-   "precio_medio": 10,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Water",
-   "tipo": "Bebida",
-   "veces": 20,
-   "cantidad": 37,
-   "ingreso_mad": 390,
    "precio_medio": 10,
    "categoria": "Bebidas"
   },
@@ -1102,39 +1102,12 @@
    "categoria": "Bebidas"
   },
   {
-   "nombre": "Water Bottle",
-   "tipo": "Bebida",
-   "veces": 15,
-   "cantidad": 17,
-   "ingreso_mad": 640,
-   "precio_medio": 20,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Water Small",
-   "tipo": "Bebida",
-   "veces": 11,
-   "cantidad": 13,
-   "ingreso_mad": 110,
-   "precio_medio": 10,
-   "categoria": "Bebidas"
-  },
-  {
    "nombre": "Bubble T Taro",
    "tipo": "Bebida",
    "veces": 7,
    "cantidad": 10,
    "ingreso_mad": 235,
    "precio_medio": 55,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Water Big",
-   "tipo": "Bebida",
-   "veces": 6,
-   "cantidad": 7,
-   "ingreso_mad": 140,
-   "precio_medio": 20,
    "categoria": "Bebidas"
   },
   {
