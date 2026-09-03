@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinomori — Dashboard de Ventas</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  :root {
+    --bg: #14100e;
+    --surface: #1e1815;
+    --surface2: #262019;
+    --border: #3a2f28;
+    --text: #f0e6d8;
+    --muted: #a89884;
+    --accent: #d4a35c;      /* dorado cálido */
+    --accent2: #c86b4a;     /* terracota */
+    --green: #7fb069;
+    --blue: #7a9eb1;
+    --purple: #a88bc7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    padding: 1.5rem;
+    min-height: 100vh;
+  }
+  .header { text-align: center; margin-bottom: 2rem; }
+  .header h1 {
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    letter-spacing: 1px;
+    color: var(--accent);
+  }
+  .header h1 span { color: var(--text); }
+  .header .sub { color: var(--muted); margin-top: 0.4rem; font-size: 0.9rem; }
+  .header .date { color: var(--accent2); margin-top: 0.3rem; font-size: 0.8rem; }
+
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    max-width: 1000px;
+    margin: 0 auto 2rem;
+  }
+  .stat-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1rem;
+    text-align: center;
+  }
+  .stat-card .value { font-size: 1.6rem; font-weight: 700; color: var(--accent); }
+  .stat-card .value small { font-size: 0.8rem; color: var(--muted); }
+  .stat-card .label { font-size: 0.75rem; color: var(--muted); margin-top: 0.2rem; }
+  .stat-card .eur { font-size: 0.85rem; color: var(--green); }
+
+  .charts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 1.2rem;
+    max-width: 1300px;
+    margin: 0 auto;
+  }
+  .chart-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.2rem;
+  }
+  .chart-card h3 { font-size: 0.95rem; color: var(--accent); margin-bottom: 1rem; }
+  .chart-card .note { font-size: 0.7rem; color: var(--muted); margin-top: 0.6rem; }
+  .chart-box { position: relative; height: 300px; }
+  .chart-box.tall { height: 400px; }
+
+  .footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.7rem;
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--border);
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (max-width: 768px) {
+    body { padding: 0.8rem; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); }
+    .chart-card { padding: 0.8rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>木の森 Kinomori <span>· Dashboard de Ventas</span></h1>
+  <div class="sub">Comandas reales del restaurante — Tamraght, Marruecos</div>
+  <div class="date" id="metaDate"></div>
+</div>
+
+<div class="stats-grid" id="statsGrid"></div>
+
+<div class="charts-grid">
+  <div class="chart-card">
+    <h3>🍽️ Top 10 platos más vendidos</h3>
+    <div class="chart-box"><canvas id="topPlatos"></canvas></div>
+    <div class="note">Por cantidad de unidades vendidas (19 fotos de comandas)</div>
+  </div>
+  <div class="chart-card">
+    <h3>🥤 Top bebidas</h3>
+    <div class="chart-box"><canvas id="topBebidas"></canvas></div>
+    <div class="note">Cola domina; agua embotellada y sparkling le siguen</div>
+  </div>
+  <div class="chart-card">
+    <h3>📈 Ingresos por día de comandas</h3>
+    <div class="chart-box"><canvas id="ingresosDia"></canvas></div>
+    <div class="note">Cada barra = una foto de comandas (día de servicio). MAD</div>
+  </div>
+  <div class="chart-card">
+    <h3>🏷️ Distribución por categoría</h3>
+    <div class="chart-box"><canvas id="categorias"></canvas></div>
+    <div class="note">Platos principales dominan el ticket</div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Datos extraídos de comandas manuscritas del restaurante · Moneda: MAD (dirhams) · Conversión EUR: 1 € ≈ 10,8 MAD</p>
+  <p id="metaFooter"></p>
+</div>
+
+<script>
+let topPlatos = [], topBebidas = [], fotos = [], totales = {}, meta = {};
+
+function fmtMAD(v) { return Math.round(v).toLocaleString('es-ES') + ' MAD'; }
+function fmtEUR(v) { return '≈ ' + Math.round(v).toLocaleString('es-ES') + ' €'; }
+
+const PALETTE = ['#d4a35c','#c86b4a','#7fb069','#7a9eb1','#a88bc7','#d4885c','#8b9e6b','#b17a5a','#6b8e9e','#9e7bb5','#c9a86a','#e0b060'];
+
+function renderStats() {
+  const grid = document.getElementById('statsGrid');
+  const t = totales;
+  const cards = [
+    { v: fmtMAD(t.ingreso_mad), e: fmtEUR(t.ingreso_eur), l: 'Ingresos totales' },
+    { v: t.fotos, l: 'Días de comandas' },
+    { v: t.lineas.toLocaleString('es-ES'), l: 'Líneas de pedido' },
+    { v: t.platos_unicos, l: 'Platos distintos' },
+    { v: t.bebidas_unicas, l: 'Bebidas distintas' },
+    { v: fmtMAD(t.ingreso_mad / t.fotos), l: 'Ticket medio / día' },
+  ];
+  grid.innerHTML = cards.map(c => `
+    <div class="stat-card">
+      <div class="value">${c.v}${c.e ? '' : ''}</div>
+      ${c.e ? `<div class="eur">${c.e}</div>` : ''}
+      <div class="label">${c.l}</div>
+    </div>`).join('');
+}
+
+function chartTopPlatos() {
+  const d = topPlatos.slice(0, 10);
+  new Chart(document.getElementById('topPlatos'), {
+    type: 'bar',
+    data: {
+      labels: d.map(x => x.nombre),
+      datasets: [{
+        label: 'Unidades vendidas',
+        data: d.map(x => x.cantidad),
+        backgroundColor: d.map((_, i) => PALETTE[i % PALETTE.length]),
+        borderRadius: 6,
+      }]
+    },
+    options: {
+      indexAxis: 'y',
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#a89884' } },
+        y: { ticks: { color: '#f0e6d8', font: { size: 11 } } }
+      }
+    }
+  });
+}
+
+function chartTopBebidas() {
+  const d = topBebidas.slice(0, 8);
+  new Chart(document.getElementById('topBebidas'), {
+    type: 'bar',
+    data: {
+      labels: d.map(x => x.nombre),
+      datasets: [{
+        label: 'Unidades',
+        data: d.map(x => x.cantidad),
+        backgroundColor: d.map((_, i) => ['#7a9eb1','#7fb069','#8b9e6b','#6b8e9e','#9e7bb5','#d4a35c','#7fb069','#a88bc7'][i]),
+        borderRadius: 6,
+      }]
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#a89884' } },
+        y: { ticks: { color: '#f0e6d8', font: { size: 11 } } }
+      }
+    }
+  });
+}
+
+function chartIngresosDia() {
+  const labels = fotos.map(f => 'Foto ' + f.foto);
+  const data = fotos.map(f => Math.round(f.ingreso_mad));
+  new Chart(document.getElementById('ingresosDia'), {
+    type: 'bar',
+    data: {
+      labels,
+      datasets: [{
+        label: 'MAD',
+        data,
+        backgroundColor: data.map(v => v > 2000 ? '#c86b4a' : '#d4a35c'),
+        borderRadius: 5,
+      }]
+    },
+    options: {
+      plugins: { legend: { display: false } },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#a89884', font: { size: 9 } } },
+        y: { grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#a89884' } }
+      }
+    }
+  });
+}
+
+function chartCategorias() {
+  // agregar por categoría desde topPlatos + topBebidas (todos)
+  const cats = {};
+  [...(window._todosPlatos || []), ...(window._todosBebidas || [])].forEach(x => {
+    cats[x.categoria] = (cats[x.categoria] || 0) + x.ingreso_mad;
+  });
+  const labels = Object.keys(cats);
+  const data = labels.map(l => Math.round(cats[l]));
+  const colors = { 'Plato principal': '#d4a35c', 'Entrante/Dumpling': '#c86b4a', 'Bebida': '#7a9eb1', 'Otro': '#a88bc7' };
+  new Chart(document.getElementById('categorias'), {
+    type: 'doughnut',
+    data: {
+      labels,
+      datasets: [{
+        data,
+        backgroundColor: labels.map(l => colors[l] || '#8b9e6b'),
+        borderWidth: 0,
+      }]
+    },
+    options: {
+      plugins: {
+        legend: { position: 'bottom', labels: { color: '#f0e6d8', padding: 14 } }
+      }
+    }
+  });
+}
+
+(async function init() {
+  try {
+    const res = await fetch('data.json', { cache: 'no-store' });
+    const d = await res.json();
+    topPlatos = d.top_platos; topBebidas = d.top_bebidas;
+    fotos = d.fotos; totales = d.totales; meta = d.meta;
+    window._todosPlatos = d.todos_platos || [];
+    window._todosBebidas = d.todos_bebidas || [];
+
+    document.getElementById('metaDate').textContent = '📅 Datos: ' + (meta.generated_at || '') + ' · ' + (meta.moneda || '');
+    document.getElementById('metaFooter').textContent = meta.nota || '';
+
+    renderStats();
+    chartTopPlatos();
+    chartTopBebidas();
+    chartIngresosDia();
+    chartCategorias();
+  } catch (e) {
+    document.body.innerHTML += '<p style="text-align:center;color:#c86b4a;margin-top:2rem">⚠️ Error cargando data.json: ' + e.message + '</p>';
+  }
+})();
+</script>
+</body>
+</html>
