@@ -1,19 +1,19 @@
 {
  "meta": {
   "titulo": "Kinomori — Dashboard de Ventas",
-  "fuente": "kinomori_comandas.xlsx (19 fotos de comandas manuscritas)",
+  "fuente": "kinomori_comandas.xlsx (28 hojas de comandas manuscritas)",
   "moneda": "MAD (dirhams marroquíes)",
   "eur_rate": 10.8,
-  "generated_at": "2026-09-02",
-  "nota": "Precios fuera de rango 5-100 MAD (números de mesa) filtrados del cálculo de ingresos"
+  "generated_at": "2026-09-03",
+  "nota": "Incluye 9 hojas de menú ampliado. Catálogo normalizado (sinónimos unificados). Bebidas fuera del top platos."
  },
  "totales": {
-  "ingreso_mad": 34925.0,
-  "ingreso_eur": 3233.8,
-  "fotos": 19,
-  "lineas": 651,
-  "platos_unicos": 67,
-  "bebidas_unicas": 17
+  "ingreso_mad": 50342,
+  "ingreso_eur": 4661.3,
+  "fotos": 28,
+  "lineas": 851,
+  "platos_unicos": 75,
+  "bebidas_unicas": 20
  },
  "fotos": [
   {
@@ -26,7 +26,7 @@
    "foto": "2",
    "ingreso_mad": 2364.0,
    "ingreso_eur": 218.89,
-   "lineas": 39
+   "lineas": 38
   },
   {
    "foto": "3",
@@ -48,14 +48,14 @@
   },
   {
    "foto": "6",
-   "ingreso_mad": 1285.0,
-   "ingreso_eur": 118.98,
-   "lineas": 33
+   "ingreso_mad": 1670.0,
+   "ingreso_eur": 154.63,
+   "lineas": 31
   },
   {
    "foto": "7",
-   "ingreso_mad": 2769.0,
-   "ingreso_eur": 256.39,
+   "ingreso_mad": 2926.0,
+   "ingreso_eur": 270.93,
    "lineas": 49
   },
   {
@@ -84,9 +84,9 @@
   },
   {
    "foto": "12",
-   "ingreso_mad": 1230.0,
-   "ingreso_eur": 113.89,
-   "lineas": 22
+   "ingreso_mad": 1210.0,
+   "ingreso_eur": 112.04,
+   "lineas": 18
   },
   {
    "foto": "13",
@@ -102,9 +102,9 @@
   },
   {
    "foto": "15",
-   "ingreso_mad": 1130.0,
-   "ingreso_eur": 104.63,
-   "lineas": 24
+   "ingreso_mad": 1255.0,
+   "ingreso_eur": 116.2,
+   "lineas": 23
   },
   {
    "foto": "16",
@@ -120,8 +120,8 @@
   },
   {
    "foto": "18",
-   "ingreso_mad": 2810.0,
-   "ingreso_eur": 260.19,
+   "ingreso_mad": 3070.0,
+   "ingreso_eur": 284.26,
    "lineas": 47
   },
   {
@@ -129,1736 +129,1068 @@
    "ingreso_mad": 1965.0,
    "ingreso_eur": 181.94,
    "lineas": 31
+  },
+  {
+   "foto": "20",
+   "ingreso_mad": 1325.0,
+   "ingreso_eur": 122.69,
+   "lineas": 27
+  },
+  {
+   "foto": "21",
+   "ingreso_mad": 2120.0,
+   "ingreso_eur": 196.3,
+   "lineas": 38
+  },
+  {
+   "foto": "22",
+   "ingreso_mad": 1875.0,
+   "ingreso_eur": 173.61,
+   "lineas": 20
+  },
+  {
+   "foto": "23",
+   "ingreso_mad": 1505.0,
+   "ingreso_eur": 139.35,
+   "lineas": 27
+  },
+  {
+   "foto": "24",
+   "ingreso_mad": 1680.0,
+   "ingreso_eur": 155.56,
+   "lineas": 25
+  },
+  {
+   "foto": "25",
+   "ingreso_mad": 815.0,
+   "ingreso_eur": 75.46,
+   "lineas": 10
+  },
+  {
+   "foto": "26",
+   "ingreso_mad": 1435.0,
+   "ingreso_eur": 132.87,
+   "lineas": 16
+  },
+  {
+   "foto": "27",
+   "ingreso_mad": 970.0,
+   "ingreso_eur": 89.81,
+   "lineas": 17
+  },
+  {
+   "foto": "28",
+   "ingreso_mad": 2785.0,
+   "ingreso_eur": 257.87,
+   "lineas": 28
   }
  ],
  "top_platos": [
   {
    "nombre": "Dumpling Beef",
-   "categoria": "Entrante/Dumpling",
-   "veces": 68,
-   "cantidad": 85,
-   "ingreso_mad": 5200.0,
-   "ingreso_eur": 481.48,
-   "precio_medio": 61.18,
-   "fotos": [
-    "1",
-    "2",
-    "4",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 80,
+   "cantidad": 105,
+   "ingreso_mad": 6635,
+   "precio_medio": 65
   },
   {
    "nombre": "Peanut Noodles",
-   "categoria": "Plato principal",
-   "veces": 66,
-   "cantidad": 76,
-   "ingreso_mad": 4865.0,
-   "ingreso_eur": 450.46,
-   "precio_medio": 64.01,
-   "fotos": [
-    "1",
-    "2",
-    "3",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 72,
+   "cantidad": 83,
+   "ingreso_mad": 5315,
+   "precio_medio": 65
   },
   {
    "nombre": "Nasi Goreng",
-   "categoria": "Plato principal",
-   "veces": 57,
-   "cantidad": 72,
-   "ingreso_mad": 4080.0,
-   "ingreso_eur": 377.78,
-   "precio_medio": 56.67,
-   "fotos": [
-    "1",
-    "2",
-    "3",
-    "4",
-    "7",
-    "8",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19"
-   ]
-  },
-  {
-   "nombre": "Dumpling Veg",
-   "categoria": "Entrante/Dumpling",
-   "veces": 36,
-   "cantidad": 42,
-   "ingreso_mad": 2431.0,
-   "ingreso_eur": 225.09,
-   "precio_medio": 57.88,
-   "fotos": [
-    "1",
-    "2",
-    "4",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "14",
-    "17",
-    "18",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 62,
+   "cantidad": 77,
+   "ingreso_mad": 4400,
+   "precio_medio": 65
   },
   {
    "nombre": "Mee Siam",
-   "categoria": "Otro",
-   "veces": 28,
-   "cantidad": 29,
-   "ingreso_mad": 1325.0,
-   "ingreso_eur": 122.69,
-   "precio_medio": 45.69,
-   "fotos": [
-    "1",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "11",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 51,
+   "cantidad": 58,
+   "ingreso_mad": 3340,
+   "precio_medio": 60
   },
   {
-   "nombre": "Eggplant Lover",
-   "categoria": "Plato principal",
-   "veces": 18,
-   "cantidad": 20,
-   "ingreso_mad": 1270.0,
-   "ingreso_eur": 117.59,
-   "precio_medio": 63.5,
-   "fotos": [
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "17",
-    "18"
-   ]
-  },
-  {
-   "nombre": "Korean BBQ Bowl",
-   "categoria": "Plato principal",
-   "veces": 17,
-   "cantidad": 19,
-   "ingreso_mad": 1305.0,
-   "ingreso_eur": 120.83,
-   "precio_medio": 68.68,
-   "fotos": [
-    "7",
-    "9",
-    "15",
-    "18"
-   ]
-  },
-  {
-   "nombre": "Dandan Noodles",
-   "categoria": "Plato principal",
-   "veces": 11,
-   "cantidad": 15,
-   "ingreso_mad": 860.0,
-   "ingreso_eur": 79.63,
-   "precio_medio": 57.33,
-   "fotos": [
-    "6",
-    "10"
-   ]
-  },
-  {
-   "nombre": "Zhajiang Noodles",
-   "categoria": "Plato principal",
-   "veces": 12,
-   "cantidad": 13,
-   "ingreso_mad": 735.0,
-   "ingreso_eur": 68.06,
-   "precio_medio": 56.54,
-   "fotos": [
-    "4",
-    "8",
-    "14"
-   ]
-  },
-  {
-   "nombre": "Pho",
-   "categoria": "Plato principal",
-   "veces": 10,
-   "cantidad": 10,
-   "ingreso_mad": 785.0,
-   "ingreso_eur": 72.69,
-   "precio_medio": 78.5,
-   "fotos": [
-    "2",
-    "7",
-    "17",
-    "19"
-   ]
-  },
-  {
-   "nombre": "Kung Pao",
-   "categoria": "Plato principal",
-   "veces": 8,
-   "cantidad": 9,
-   "ingreso_mad": 600.0,
-   "ingreso_eur": 55.56,
-   "precio_medio": 66.67,
-   "fotos": [
-    "2",
-    "16"
-   ]
-  },
-  {
-   "nombre": "Yunnan Soup Noodles",
-   "categoria": "Plato principal",
-   "veces": 8,
-   "cantidad": 9,
-   "ingreso_mad": 675.0,
-   "ingreso_eur": 62.5,
-   "precio_medio": 75.0,
-   "fotos": [
-    "3",
-    "9",
-    "13",
-    "18"
-   ]
+   "nombre": "Dumpling Veg",
+   "tipo": "Plato",
+   "veces": 46,
+   "cantidad": 56,
+   "ingreso_mad": 3271,
+   "precio_medio": 60
   },
   {
    "nombre": "Soup Noodles",
-   "categoria": "Plato principal",
-   "veces": 8,
-   "cantidad": 9,
-   "ingreso_mad": 240.0,
-   "ingreso_eur": 22.22,
-   "precio_medio": 26.67,
-   "fotos": [
-    "5",
-    "6"
-   ]
+   "tipo": "Plato",
+   "veces": 19,
+   "cantidad": 29,
+   "ingreso_mad": 1540,
+   "precio_medio": 65
   },
   {
-   "nombre": "Biang Biang Mian",
-   "categoria": "Plato principal",
-   "veces": 8,
-   "cantidad": 8,
-   "ingreso_mad": 630.0,
-   "ingreso_eur": 58.33,
-   "precio_medio": 78.75,
-   "fotos": [
-    "2",
-    "17"
-   ]
+   "nombre": "Korean BBQ Bowl",
+   "tipo": "Plato",
+   "veces": 23,
+   "cantidad": 25,
+   "ingreso_mad": 1730,
+   "precio_medio": 75
   },
   {
-   "nombre": "Combo Thai/Disan",
-   "categoria": "Plato principal",
-   "veces": 7,
-   "cantidad": 8,
-   "ingreso_mad": 360.0,
-   "ingreso_eur": 33.33,
-   "precio_medio": 45.0,
-   "fotos": [
-    "3",
-    "5",
-    "6",
-    "16"
-   ]
+   "nombre": "Dandan Noodles",
+   "tipo": "Plato",
+   "veces": 16,
+   "cantidad": 21,
+   "ingreso_mad": 1310,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Eggplant Lover",
+   "tipo": "Plato",
+   "veces": 18,
+   "cantidad": 20,
+   "ingreso_mad": 1270,
+   "precio_medio": 70
   },
   {
    "nombre": "Thai Beef Rice",
-   "categoria": "Plato principal",
-   "veces": 7,
-   "cantidad": 8,
-   "ingreso_mad": 550.0,
-   "ingreso_eur": 50.93,
-   "precio_medio": 68.75,
-   "fotos": [
-    "4",
-    "14",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 17,
+   "cantidad": 18,
+   "ingreso_mad": 1265,
+   "precio_medio": 75
   },
   {
-   "nombre": "Sichuan Noodles",
-   "categoria": "Plato principal",
-   "veces": 7,
-   "cantidad": 8,
-   "ingreso_mad": 445.0,
-   "ingreso_eur": 41.2,
-   "precio_medio": 55.62,
-   "fotos": [
-    "6",
-    "13",
-    "19"
-   ]
+   "nombre": "Biang Biang Mian",
+   "tipo": "Plato",
+   "veces": 14,
+   "cantidad": 16,
+   "ingreso_mad": 1130,
+   "precio_medio": 75
   },
   {
-   "nombre": "Salad",
-   "categoria": "Entrante/Dumpling",
+   "nombre": "Zhajiang Noodles",
+   "tipo": "Plato",
+   "veces": 12,
+   "cantidad": 13,
+   "ingreso_mad": 735,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Pho",
+   "tipo": "Plato",
+   "veces": 12,
+   "cantidad": 12,
+   "ingreso_mad": 935,
+   "precio_medio": 80
+  },
+  {
+   "nombre": "Cold Noodles",
+   "tipo": "Plato",
+   "veces": 12,
+   "cantidad": 12,
+   "ingreso_mad": 695,
+   "precio_medio": 60
+  },
+  {
+   "nombre": "Thai Curry",
+   "tipo": "Plato",
+   "veces": 9,
+   "cantidad": 11,
+   "ingreso_mad": 820,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Combo Thai/Chicken",
+   "tipo": "Plato",
+   "veces": 8,
+   "cantidad": 11,
+   "ingreso_mad": 630,
+   "precio_medio": 70
+  },
+  {
+   "nombre": "Combo Thai/Disan",
+   "tipo": "Plato",
+   "veces": 9,
+   "cantidad": 11,
+   "ingreso_mad": 710,
+   "precio_medio": 70
+  },
+  {
+   "nombre": "Spring Roll",
+   "tipo": "Plato",
    "veces": 6,
-   "cantidad": 6,
-   "ingreso_mad": 100.0,
-   "ingreso_eur": 9.26,
-   "precio_medio": 16.67,
-   "fotos": [
-    "1",
-    "2",
-    "4",
-    "7",
-    "8",
-    "17"
-   ]
+   "cantidad": 11,
+   "ingreso_mad": 355,
+   "precio_medio": 35
   },
   {
-   "nombre": "Dumpling Soup",
-   "categoria": "Plato principal",
-   "veces": 6,
-   "cantidad": 6,
-   "ingreso_mad": 255.0,
-   "ingreso_eur": 23.61,
-   "precio_medio": 42.5,
-   "fotos": [
-    "8",
-    "9",
-    "10",
-    "15"
-   ]
+   "nombre": "Kung Pao",
+   "tipo": "Plato",
+   "veces": 9,
+   "cantidad": 10,
+   "ingreso_mad": 675,
+   "precio_medio": 75
   },
   {
-   "nombre": "Hainan Chicken",
-   "categoria": "Plato principal",
+   "nombre": "Goji Soup",
+   "tipo": "Plato",
    "veces": 5,
-   "cantidad": 5,
-   "ingreso_mad": 330.0,
-   "ingreso_eur": 30.56,
-   "precio_medio": 66.0,
-   "fotos": [
-    "3",
-    "4",
-    "7",
-    "11"
-   ]
+   "cantidad": 9,
+   "ingreso_mad": 635,
+   "precio_medio": 75
   }
  ],
  "top_bebidas": [
   {
    "nombre": "Cola",
-   "categoria": "Plato principal",
-   "veces": 64,
-   "cantidad": 122,
-   "ingreso_mad": 1438.0,
-   "ingreso_eur": 133.15,
-   "precio_medio": 11.79,
-   "fotos": [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "16",
-    "17",
-    "18",
-    "19"
-   ]
+   "tipo": "Bebida",
+   "veces": 68,
+   "cantidad": 127,
+   "ingreso_mad": 1513,
+   "precio_medio": 15
   },
   {
    "nombre": "Sparkling Water",
-   "categoria": "Plato principal",
-   "veces": 24,
-   "cantidad": 32,
-   "ingreso_mad": 530.0,
-   "ingreso_eur": 49.07,
-   "precio_medio": 16.56,
-   "fotos": [
-    "2",
-    "3",
-    "4",
-    "6",
-    "7",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "16",
-    "18"
-   ]
+   "tipo": "Bebida",
+   "veces": 35,
+   "cantidad": 48,
+   "ingreso_mad": 862,
+   "precio_medio": 10
   },
   {
    "nombre": "Water",
-   "categoria": "Plato principal",
-   "veces": 16,
-   "cantidad": 31,
-   "ingreso_mad": 330.0,
-   "ingreso_eur": 30.56,
-   "precio_medio": 10.65,
-   "fotos": [
-    "1",
-    "2",
-    "3",
-    "5",
-    "7",
-    "8",
-    "10",
-    "11",
-    "15",
-    "18"
-   ]
-  },
-  {
-   "nombre": "Water Bottle",
-   "categoria": "Plato principal",
-   "veces": 13,
-   "cantidad": 15,
-   "ingreso_mad": 380.0,
-   "ingreso_eur": 35.19,
-   "precio_medio": 25.33,
-   "fotos": [
-    "1",
-    "2",
-    "6",
-    "7",
-    "9",
-    "11",
-    "14",
-    "19"
-   ]
+   "tipo": "Bebida",
+   "veces": 20,
+   "cantidad": 37,
+   "ingreso_mad": 390,
+   "precio_medio": 10
   },
   {
    "nombre": "Iced Tea",
-   "categoria": "Plato principal",
-   "veces": 11,
-   "cantidad": 12,
-   "ingreso_mad": 280.0,
-   "ingreso_eur": 25.93,
-   "precio_medio": 23.33,
-   "fotos": [
-    "5",
-    "6",
-    "12",
-    "13",
-    "14",
-    "15"
-   ]
+   "tipo": "Bebida",
+   "veces": 20,
+   "cantidad": 25,
+   "ingreso_mad": 445,
+   "precio_medio": 15
   },
   {
-   "nombre": "Bubble T Taro",
-   "categoria": "Plato principal",
-   "veces": 6,
-   "cantidad": 9,
-   "ingreso_mad": 55.0,
-   "ingreso_eur": 5.09,
-   "precio_medio": 6.11,
-   "fotos": [
-    "5",
-    "15"
-   ]
+   "nombre": "Water Bottle",
+   "tipo": "Bebida",
+   "veces": 15,
+   "cantidad": 17,
+   "ingreso_mad": 640,
+   "precio_medio": 20
   },
   {
    "nombre": "Water Small",
-   "categoria": "Plato principal",
+   "tipo": "Bebida",
+   "veces": 11,
+   "cantidad": 13,
+   "ingreso_mad": 110,
+   "precio_medio": 10
+  },
+  {
+   "nombre": "Bubble T Taro",
+   "tipo": "Bebida",
    "veces": 7,
-   "cantidad": 8,
-   "ingreso_mad": 60.0,
-   "ingreso_eur": 5.56,
-   "precio_medio": 7.5,
-   "fotos": [
-    "1",
-    "5",
-    "12",
-    "13",
-    "19"
-   ]
+   "cantidad": 10,
+   "ingreso_mad": 235,
+   "precio_medio": 55
   },
   {
    "nombre": "Water Big",
-   "categoria": "Plato principal",
+   "tipo": "Bebida",
+   "veces": 6,
+   "cantidad": 7,
+   "ingreso_mad": 140,
+   "precio_medio": 20
+  },
+  {
+   "nombre": "Cola Zero",
+   "tipo": "Bebida",
    "veces": 5,
-   "cantidad": 6,
-   "ingreso_mad": 120.0,
-   "ingreso_eur": 11.11,
-   "precio_medio": 20.0,
-   "fotos": [
-    "1",
-    "8",
-    "13",
-    "16"
-   ]
+   "cantidad": 7,
+   "ingreso_mad": 105,
+   "precio_medio": 15
   },
   {
    "nombre": "Apple Juice",
-   "categoria": "Plato principal",
+   "tipo": "Bebida",
    "veces": 5,
    "cantidad": 5,
-   "ingreso_mad": 45.0,
-   "ingreso_eur": 4.17,
-   "precio_medio": 9.0,
-   "fotos": [
-    "2",
-    "7",
-    "17",
-    "18"
-   ]
-  },
-  {
-   "nombre": "Orange Juice",
-   "categoria": "Plato principal",
-   "veces": 4,
-   "cantidad": 5,
-   "ingreso_mad": 130.0,
-   "ingreso_eur": 12.04,
-   "precio_medio": 26.0,
-   "fotos": [
-    "3",
-    "4",
-    "8",
-    "17"
-   ]
+   "ingreso_mad": 45,
+   "precio_medio": 15
   }
  ],
  "todos_platos": [
   {
    "nombre": "Dumpling Beef",
-   "categoria": "Entrante/Dumpling",
-   "veces": 68,
-   "cantidad": 85,
-   "ingreso_mad": 5200.0,
-   "ingreso_eur": 481.48,
-   "precio_medio": 61.18,
-   "fotos": [
-    "1",
-    "2",
-    "4",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 80,
+   "cantidad": 105,
+   "ingreso_mad": 6635,
+   "precio_medio": 65
   },
   {
    "nombre": "Peanut Noodles",
-   "categoria": "Plato principal",
-   "veces": 66,
-   "cantidad": 76,
-   "ingreso_mad": 4865.0,
-   "ingreso_eur": 450.46,
-   "precio_medio": 64.01,
-   "fotos": [
-    "1",
-    "2",
-    "3",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 72,
+   "cantidad": 83,
+   "ingreso_mad": 5315,
+   "precio_medio": 65
   },
   {
    "nombre": "Nasi Goreng",
-   "categoria": "Plato principal",
-   "veces": 57,
-   "cantidad": 72,
-   "ingreso_mad": 4080.0,
-   "ingreso_eur": 377.78,
-   "precio_medio": 56.67,
-   "fotos": [
-    "1",
-    "2",
-    "3",
-    "4",
-    "7",
-    "8",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "18",
-    "19"
-   ]
-  },
-  {
-   "nombre": "Dumpling Veg",
-   "categoria": "Entrante/Dumpling",
-   "veces": 36,
-   "cantidad": 42,
-   "ingreso_mad": 2431.0,
-   "ingreso_eur": 225.09,
-   "precio_medio": 57.88,
-   "fotos": [
-    "1",
-    "2",
-    "4",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "14",
-    "17",
-    "18",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 62,
+   "cantidad": 77,
+   "ingreso_mad": 4400,
+   "precio_medio": 65
   },
   {
    "nombre": "Mee Siam",
-   "categoria": "Otro",
-   "veces": 28,
-   "cantidad": 29,
-   "ingreso_mad": 1325.0,
-   "ingreso_eur": 122.69,
-   "precio_medio": 45.69,
-   "fotos": [
-    "1",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "11",
-    "13",
-    "14",
-    "15",
-    "16",
-    "17",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 51,
+   "cantidad": 58,
+   "ingreso_mad": 3340,
+   "precio_medio": 60
   },
   {
-   "nombre": "Eggplant Lover",
-   "categoria": "Plato principal",
-   "veces": 18,
-   "cantidad": 20,
-   "ingreso_mad": 1270.0,
-   "ingreso_eur": 117.59,
-   "precio_medio": 63.5,
-   "fotos": [
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "17",
-    "18"
-   ]
-  },
-  {
-   "nombre": "Korean BBQ Bowl",
-   "categoria": "Plato principal",
-   "veces": 17,
-   "cantidad": 19,
-   "ingreso_mad": 1305.0,
-   "ingreso_eur": 120.83,
-   "precio_medio": 68.68,
-   "fotos": [
-    "7",
-    "9",
-    "15",
-    "18"
-   ]
-  },
-  {
-   "nombre": "Dandan Noodles",
-   "categoria": "Plato principal",
-   "veces": 11,
-   "cantidad": 15,
-   "ingreso_mad": 860.0,
-   "ingreso_eur": 79.63,
-   "precio_medio": 57.33,
-   "fotos": [
-    "6",
-    "10"
-   ]
-  },
-  {
-   "nombre": "Zhajiang Noodles",
-   "categoria": "Plato principal",
-   "veces": 12,
-   "cantidad": 13,
-   "ingreso_mad": 735.0,
-   "ingreso_eur": 68.06,
-   "precio_medio": 56.54,
-   "fotos": [
-    "4",
-    "8",
-    "14"
-   ]
-  },
-  {
-   "nombre": "Pho",
-   "categoria": "Plato principal",
-   "veces": 10,
-   "cantidad": 10,
-   "ingreso_mad": 785.0,
-   "ingreso_eur": 72.69,
-   "precio_medio": 78.5,
-   "fotos": [
-    "2",
-    "7",
-    "17",
-    "19"
-   ]
-  },
-  {
-   "nombre": "Kung Pao",
-   "categoria": "Plato principal",
-   "veces": 8,
-   "cantidad": 9,
-   "ingreso_mad": 600.0,
-   "ingreso_eur": 55.56,
-   "precio_medio": 66.67,
-   "fotos": [
-    "2",
-    "16"
-   ]
-  },
-  {
-   "nombre": "Yunnan Soup Noodles",
-   "categoria": "Plato principal",
-   "veces": 8,
-   "cantidad": 9,
-   "ingreso_mad": 675.0,
-   "ingreso_eur": 62.5,
-   "precio_medio": 75.0,
-   "fotos": [
-    "3",
-    "9",
-    "13",
-    "18"
-   ]
+   "nombre": "Dumpling Veg",
+   "tipo": "Plato",
+   "veces": 46,
+   "cantidad": 56,
+   "ingreso_mad": 3271,
+   "precio_medio": 60
   },
   {
    "nombre": "Soup Noodles",
-   "categoria": "Plato principal",
-   "veces": 8,
-   "cantidad": 9,
-   "ingreso_mad": 240.0,
-   "ingreso_eur": 22.22,
-   "precio_medio": 26.67,
-   "fotos": [
-    "5",
-    "6"
-   ]
+   "tipo": "Plato",
+   "veces": 19,
+   "cantidad": 29,
+   "ingreso_mad": 1540,
+   "precio_medio": 65
   },
   {
-   "nombre": "Biang Biang Mian",
-   "categoria": "Plato principal",
-   "veces": 8,
-   "cantidad": 8,
-   "ingreso_mad": 630.0,
-   "ingreso_eur": 58.33,
-   "precio_medio": 78.75,
-   "fotos": [
-    "2",
-    "17"
-   ]
+   "nombre": "Korean BBQ Bowl",
+   "tipo": "Plato",
+   "veces": 23,
+   "cantidad": 25,
+   "ingreso_mad": 1730,
+   "precio_medio": 75
   },
   {
-   "nombre": "Combo Thai/Disan",
-   "categoria": "Plato principal",
-   "veces": 7,
-   "cantidad": 8,
-   "ingreso_mad": 360.0,
-   "ingreso_eur": 33.33,
-   "precio_medio": 45.0,
-   "fotos": [
-    "3",
-    "5",
-    "6",
-    "16"
-   ]
+   "nombre": "Dandan Noodles",
+   "tipo": "Plato",
+   "veces": 16,
+   "cantidad": 21,
+   "ingreso_mad": 1310,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Eggplant Lover",
+   "tipo": "Plato",
+   "veces": 18,
+   "cantidad": 20,
+   "ingreso_mad": 1270,
+   "precio_medio": 70
   },
   {
    "nombre": "Thai Beef Rice",
-   "categoria": "Plato principal",
-   "veces": 7,
-   "cantidad": 8,
-   "ingreso_mad": 550.0,
-   "ingreso_eur": 50.93,
-   "precio_medio": 68.75,
-   "fotos": [
-    "4",
-    "14",
-    "19"
-   ]
+   "tipo": "Plato",
+   "veces": 17,
+   "cantidad": 18,
+   "ingreso_mad": 1265,
+   "precio_medio": 75
   },
   {
-   "nombre": "Sichuan Noodles",
-   "categoria": "Plato principal",
-   "veces": 7,
-   "cantidad": 8,
-   "ingreso_mad": 445.0,
-   "ingreso_eur": 41.2,
-   "precio_medio": 55.62,
-   "fotos": [
-    "6",
-    "13",
-    "19"
-   ]
+   "nombre": "Biang Biang Mian",
+   "tipo": "Plato",
+   "veces": 14,
+   "cantidad": 16,
+   "ingreso_mad": 1130,
+   "precio_medio": 75
   },
   {
-   "nombre": "Salad",
-   "categoria": "Entrante/Dumpling",
-   "veces": 6,
-   "cantidad": 6,
-   "ingreso_mad": 100.0,
-   "ingreso_eur": 9.26,
-   "precio_medio": 16.67,
-   "fotos": [
-    "1",
-    "2",
-    "4",
-    "7",
-    "8",
-    "17"
-   ]
+   "nombre": "Zhajiang Noodles",
+   "tipo": "Plato",
+   "veces": 12,
+   "cantidad": 13,
+   "ingreso_mad": 735,
+   "precio_medio": 75
   },
   {
-   "nombre": "Dumpling Soup",
-   "categoria": "Plato principal",
-   "veces": 6,
-   "cantidad": 6,
-   "ingreso_mad": 255.0,
-   "ingreso_eur": 23.61,
-   "precio_medio": 42.5,
-   "fotos": [
-    "8",
-    "9",
-    "10",
-    "15"
-   ]
+   "nombre": "Pho",
+   "tipo": "Plato",
+   "veces": 12,
+   "cantidad": 12,
+   "ingreso_mad": 935,
+   "precio_medio": 80
   },
   {
-   "nombre": "Hainan Chicken",
-   "categoria": "Plato principal",
-   "veces": 5,
-   "cantidad": 5,
-   "ingreso_mad": 330.0,
-   "ingreso_eur": 30.56,
-   "precio_medio": 66.0,
-   "fotos": [
-    "3",
-    "4",
-    "7",
-    "11"
-   ]
-  },
-  {
-   "nombre": "Beijing Zhajiang",
-   "categoria": "Plato principal",
-   "veces": 4,
-   "cantidad": 5,
-   "ingreso_mad": 395.0,
-   "ingreso_eur": 36.57,
-   "precio_medio": 79.0,
-   "fotos": [
-    "3",
-    "8",
-    "14"
-   ]
-  },
-  {
-   "nombre": "Dumpling Beef Spicy",
-   "categoria": "Entrante/Dumpling",
-   "veces": 5,
-   "cantidad": 5,
-   "ingreso_mad": 321.0,
-   "ingreso_eur": 29.72,
-   "precio_medio": 64.2,
-   "fotos": [
-    "4",
-    "7",
-    "8"
-   ]
-  },
-  {
-   "nombre": "Miso Dandan",
-   "categoria": "Plato principal",
-   "veces": 5,
-   "cantidad": 5,
-   "ingreso_mad": 375.0,
-   "ingreso_eur": 34.72,
-   "precio_medio": 75.0,
-   "fotos": [
-    "13"
-   ]
-  },
-  {
-   "nombre": "Beijing Noodles",
-   "categoria": "Plato principal",
-   "veces": 4,
-   "cantidad": 4,
-   "ingreso_mad": 305.0,
-   "ingreso_eur": 28.24,
-   "precio_medio": 76.25,
-   "fotos": [
-    "1"
-   ]
-  },
-  {
-   "nombre": "Goji Noodles",
-   "categoria": "Plato principal",
-   "veces": 4,
-   "cantidad": 4,
-   "ingreso_mad": 300.0,
-   "ingreso_eur": 27.78,
-   "precio_medio": 75.0,
-   "fotos": [
-    "3"
-   ]
+   "nombre": "Cold Noodles",
+   "tipo": "Plato",
+   "veces": 12,
+   "cantidad": 12,
+   "ingreso_mad": 695,
+   "precio_medio": 60
   },
   {
    "nombre": "Thai Curry",
-   "categoria": "Plato principal",
-   "veces": 4,
-   "cantidad": 4,
-   "ingreso_mad": 300.0,
-   "ingreso_eur": 27.78,
-   "precio_medio": 75.0,
-   "fotos": [
-    "3",
-    "4",
-    "11"
-   ]
+   "tipo": "Plato",
+   "veces": 9,
+   "cantidad": 11,
+   "ingreso_mad": 820,
+   "precio_medio": 75
   },
   {
    "nombre": "Combo Thai/Chicken",
-   "categoria": "Plato principal",
-   "veces": 3,
-   "cantidad": 4,
-   "ingreso_mad": 140.0,
-   "ingreso_eur": 12.96,
-   "precio_medio": 35.0,
-   "fotos": [
-    "5",
-    "6"
-   ]
+   "tipo": "Plato",
+   "veces": 8,
+   "cantidad": 11,
+   "ingreso_mad": 630,
+   "precio_medio": 70
   },
   {
-   "nombre": "(falta)",
-   "categoria": "Plato principal",
-   "veces": 4,
-   "cantidad": 4,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "14"
-   ]
+   "nombre": "Combo Thai/Disan",
+   "tipo": "Plato",
+   "veces": 9,
+   "cantidad": 11,
+   "ingreso_mad": 710,
+   "precio_medio": 70
   },
   {
-   "nombre": "Spicy Dry",
-   "categoria": "Plato principal",
-   "veces": 4,
-   "cantidad": 4,
-   "ingreso_mad": 280.0,
-   "ingreso_eur": 25.93,
-   "precio_medio": 70.0,
-   "fotos": [
-    "15",
-    "16"
-   ]
+   "nombre": "Spring Roll",
+   "tipo": "Plato",
+   "veces": 6,
+   "cantidad": 11,
+   "ingreso_mad": 355,
+   "precio_medio": 35
   },
   {
-   "nombre": "Korean Chicken",
-   "categoria": "Plato principal",
-   "veces": 3,
-   "cantidad": 3,
-   "ingreso_mad": 230.0,
-   "ingreso_eur": 21.3,
-   "precio_medio": 76.67,
-   "fotos": [
-    "1"
-   ]
-  },
-  {
-   "nombre": "Korean Amber",
-   "categoria": "Plato principal",
-   "veces": 3,
-   "cantidad": 3,
-   "ingreso_mad": 225.0,
-   "ingreso_eur": 20.83,
-   "precio_medio": 75.0,
-   "fotos": [
-    "8"
-   ]
-  },
-  {
-   "nombre": "Thai Rice",
-   "categoria": "Plato principal",
-   "veces": 3,
-   "cantidad": 3,
-   "ingreso_mad": 225.0,
-   "ingreso_eur": 20.83,
-   "precio_medio": 75.0,
-   "fotos": [
-    "10"
-   ]
-  },
-  {
-   "nombre": "Timestamp",
-   "categoria": "Plato principal",
-   "veces": 3,
-   "cantidad": 3,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "12"
-   ]
-  },
-  {
-   "nombre": "Dumpling Beef Crispy",
-   "categoria": "Entrante/Dumpling",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 130.0,
-   "ingreso_eur": 12.04,
-   "precio_medio": 65.0,
-   "fotos": [
-    "4",
-    "14"
-   ]
-  },
-  {
-   "nombre": "Cash",
-   "categoria": "Plato principal",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "5"
-   ]
-  },
-  {
-   "nombre": "Dumpling V + Dumpling B",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 2,
-   "ingreso_mad": 125.0,
-   "ingreso_eur": 11.57,
-   "precio_medio": 62.5,
-   "fotos": [
-    "9"
-   ]
-  },
-  {
-   "nombre": "Take Away",
-   "categoria": "Plato principal",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 65.0,
-   "ingreso_eur": 6.02,
-   "precio_medio": 32.5,
-   "fotos": [
-    "11",
-    "15"
-   ]
-  },
-  {
-   "nombre": "Massaman",
-   "categoria": "Plato principal",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 120.0,
-   "ingreso_eur": 11.11,
-   "precio_medio": 60.0,
-   "fotos": [
-    "18"
-   ]
-  },
-  {
-   "nombre": "Event/Total",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "2"
-   ]
+   "nombre": "Kung Pao",
+   "tipo": "Plato",
+   "veces": 9,
+   "cantidad": 10,
+   "ingreso_mad": 675,
+   "precio_medio": 75
   },
   {
    "nombre": "Goji Soup",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 35.0,
-   "ingreso_eur": 3.24,
-   "precio_medio": 35.0,
-   "fotos": [
-    "3"
-   ]
+   "tipo": "Plato",
+   "veces": 5,
+   "cantidad": 9,
+   "ingreso_mad": 635,
+   "precio_medio": 75
   },
   {
-   "nombre": "Cabbage Salad",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "3"
-   ]
+   "nombre": "Yunnan Soup Noodles",
+   "tipo": "Plato",
+   "veces": 8,
+   "cantidad": 9,
+   "ingreso_mad": 675,
+   "precio_medio": 75
   },
   {
-   "nombre": "Peanut sauce",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "4"
-   ]
+   "nombre": "Hainan Chicken",
+   "tipo": "Plato",
+   "veces": 8,
+   "cantidad": 8,
+   "ingreso_mad": 555,
+   "precio_medio": 75
   },
   {
-   "nombre": "Dumpling Veg Spicy",
-   "categoria": "Entrante/Dumpling",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 60.0,
-   "ingreso_eur": 5.56,
-   "precio_medio": 60.0,
-   "fotos": [
-    "4"
-   ]
+   "nombre": "Sichuan Noodles",
+   "tipo": "Plato",
+   "veces": 7,
+   "cantidad": 8,
+   "ingreso_mad": 445,
+   "precio_medio": 75
   },
   {
-   "nombre": "Combo Veg",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "5"
-   ]
+   "nombre": "Salad",
+   "tipo": "Plato",
+   "veces": 7,
+   "cantidad": 7,
+   "ingreso_mad": 100,
+   "precio_medio": 100
   },
   {
-   "nombre": "Combo B/DIY",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "5"
-   ]
+   "nombre": "Dumpling Soup",
+   "tipo": "Plato",
+   "veces": 6,
+   "cantidad": 6,
+   "ingreso_mad": 255,
+   "precio_medio": 65
   },
   {
-   "nombre": "Método",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "5"
-   ]
+   "nombre": "Spicy Dry",
+   "tipo": "Plato",
+   "veces": 6,
+   "cantidad": 6,
+   "ingreso_mad": 420,
+   "precio_medio": 70
   },
   {
-   "nombre": "paid",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "5"
-   ]
+   "nombre": "Beijing Zhajiang",
+   "tipo": "Plato",
+   "veces": 4,
+   "cantidad": 5,
+   "ingreso_mad": 395,
+   "precio_medio": 75
   },
   {
-   "nombre": "(ilegible)",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "6"
-   ]
+   "nombre": "Dumpling Beef Spicy",
+   "tipo": "Plato",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 321,
+   "precio_medio": 65
   },
   {
-   "nombre": "Caja",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 35.0,
-   "ingreso_eur": 3.24,
-   "precio_medio": 35.0,
-   "fotos": [
-    "6"
-   ]
+   "nombre": "Mama Soup",
+   "tipo": "Plato",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 225,
+   "precio_medio": 45
   },
   {
-   "nombre": "Mama Sayr",
-   "categoria": "Otro",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 45.0,
-   "ingreso_eur": 4.17,
-   "precio_medio": 45.0,
-   "fotos": [
-    "6"
-   ]
+   "nombre": "Miso Dandan",
+   "tipo": "Plato",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 375,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Beijing Noodles",
+   "tipo": "Plato",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 305,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Goji Noodles",
+   "tipo": "Plato",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 300,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "(falta)",
+   "tipo": "Plato",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "Korean Chicken",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 3,
+   "ingreso_mad": 230,
+   "precio_medio": 80
+  },
+  {
+   "nombre": "Korean Amber",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 3,
+   "ingreso_mad": 225,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Sesame Wonton",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 3,
+   "ingreso_mad": 225,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Spicy Squid",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 3,
+   "ingreso_mad": 225,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Chicken Soup",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 3,
+   "ingreso_mad": 195,
+   "precio_medio": 65
   },
   {
    "nombre": "Rice Combo",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 70,
+   "precio_medio": 70
+  },
+  {
+   "nombre": "Dumpling Beef Crispy",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 130,
+   "precio_medio": 65
+  },
+  {
+   "nombre": "Cash",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "Dumpling V + Dumpling B",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 2,
+   "ingreso_mad": 125,
+   "precio_medio": 62.5
+  },
+  {
+   "nombre": "Take Away",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 65,
+   "precio_medio": 65
+  },
+  {
+   "nombre": "3 in 1",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 150,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Massaman",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 120,
+   "precio_medio": 60
+  },
+  {
+   "nombre": "Bot Dumpling",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 2,
+   "ingreso_mad": 260,
+   "precio_medio": 130
+  },
+  {
+   "nombre": "Spicy Dry Wonton",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 140,
+   "precio_medio": 70
+  },
+  {
+   "nombre": "Curry Egg",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 130,
+   "precio_medio": 65
+  },
+  {
+   "nombre": "Curry Beef",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 2,
+   "ingreso_mad": 150,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Peanut sauce",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "7"
-   ]
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "Dumpling Veg Spicy",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 60,
+   "precio_medio": 60
+  },
+  {
+   "nombre": "Combo Breff Dixian (Hot)",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "Combo Veg",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "Combo B/DIY",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "Método",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "paid",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "Rice Combo Thai/Disan",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 0,
+   "precio_medio": null
   },
   {
    "nombre": "Tender Chicken",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 25.0,
-   "ingreso_eur": 2.31,
-   "precio_medio": 25.0,
-   "fotos": [
-    "7"
-   ]
+   "ingreso_mad": 25,
+   "precio_medio": 25
   },
   {
    "nombre": "Dumpling Fried",
-   "categoria": "Entrante/Dumpling",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "8"
-   ]
+   "ingreso_mad": 0,
+   "precio_medio": null
   },
   {
    "nombre": "Combo Thai/Eggplant",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 70.0,
-   "ingreso_eur": 6.48,
-   "precio_medio": 70.0,
-   "fotos": [
-    "11"
-   ]
-  },
-  {
-   "nombre": "Mesa",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 20.0,
-   "ingreso_eur": 1.85,
-   "precio_medio": 20.0,
-   "fotos": [
-    "12"
-   ]
+   "ingreso_mad": 70,
+   "precio_medio": 70
   },
   {
    "nombre": "Japanese BBQ",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 25.0,
-   "ingreso_eur": 2.31,
-   "precio_medio": 25.0,
-   "fotos": [
-    "12"
-   ]
-  },
-  {
-   "nombre": "Combo",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 75.0,
-   "ingreso_eur": 6.94,
-   "precio_medio": 75.0,
-   "fotos": [
-    "13"
-   ]
+   "ingreso_mad": 25,
+   "precio_medio": 25
   },
   {
    "nombre": "No Egg",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "13"
-   ]
+   "ingreso_mad": 0,
+   "precio_medio": null
   },
   {
    "nombre": "Korean Amber Chicken",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 75.0,
-   "ingreso_eur": 6.94,
-   "precio_medio": 75.0,
-   "fotos": [
-    "13"
-   ]
+   "ingreso_mad": 75,
+   "precio_medio": 75
+  },
+  {
+   "nombre": "Dumpling Souce",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 65,
+   "precio_medio": 65
   },
   {
    "nombre": "Salad Spinach",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 50.0,
-   "ingreso_eur": 4.63,
-   "precio_medio": 50.0,
-   "fotos": [
-    "14"
-   ]
+   "ingreso_mad": 50,
+   "precio_medio": 50
   },
   {
-   "nombre": "Spicy Dry Dumplings",
-   "categoria": "Entrante/Dumpling",
+   "nombre": "Dumpling N Boiled",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 70.0,
-   "ingreso_eur": 6.48,
-   "precio_medio": 70.0,
-   "fotos": [
-    "15"
-   ]
+   "ingreso_mad": 60,
+   "precio_medio": 60
   },
   {
-   "nombre": "Ring",
-   "categoria": "Plato principal",
+   "nombre": "Shout/Short",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "15"
-   ]
+   "ingreso_mad": 0,
+   "precio_medio": null
   },
   {
-   "nombre": "Spicy Dry Veg",
-   "categoria": "Plato principal",
+   "nombre": "Tossed Peanut Sauce Veg",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 70.0,
-   "ingreso_eur": 6.48,
-   "precio_medio": 70.0,
-   "fotos": [
-    "16"
-   ]
+   "ingreso_mad": 70,
+   "precio_medio": 70
   },
   {
    "nombre": "Sichuan Mala Rice",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 75.0,
-   "ingreso_eur": 6.94,
-   "precio_medio": 75.0,
-   "fotos": [
-    "17"
-   ]
+   "ingreso_mad": 75,
+   "precio_medio": 75
   },
   {
-   "nombre": "Water Spark",
-   "categoria": "Plato principal",
+   "nombre": "Peanut Noodle TA",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 15.0,
-   "ingreso_eur": 1.39,
-   "precio_medio": 15.0,
-   "fotos": [
-    "18"
-   ]
+   "ingreso_mad": 70,
+   "precio_medio": 70
   },
   {
    "nombre": "KD",
-   "categoria": "Plato principal",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "18"
-   ]
+   "ingreso_mad": 0,
+   "precio_medio": null
   },
   {
-   "nombre": "TA",
-   "categoria": "Plato principal",
+   "nombre": "Peanut Noodle Ice",
+   "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "18"
-   ]
+   "ingreso_mad": 60,
+   "precio_medio": 60
+  },
+  {
+   "nombre": "Bibimbap",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 65,
+   "precio_medio": 65
+  },
+  {
+   "nombre": "Fried Rice",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 60,
+   "precio_medio": 60
+  },
+  {
+   "nombre": "Hakka Noodles",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 75,
+   "precio_medio": 75
   }
  ],
  "todos_bebidas": [
   {
    "nombre": "Cola",
-   "categoria": "Plato principal",
-   "veces": 64,
-   "cantidad": 122,
-   "ingreso_mad": 1438.0,
-   "ingreso_eur": 133.15,
-   "precio_medio": 11.79,
-   "fotos": [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
-    "7",
-    "8",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "14",
-    "16",
-    "17",
-    "18",
-    "19"
-   ]
+   "tipo": "Bebida",
+   "veces": 68,
+   "cantidad": 127,
+   "ingreso_mad": 1513,
+   "precio_medio": 15
   },
   {
    "nombre": "Sparkling Water",
-   "categoria": "Plato principal",
-   "veces": 24,
-   "cantidad": 32,
-   "ingreso_mad": 530.0,
-   "ingreso_eur": 49.07,
-   "precio_medio": 16.56,
-   "fotos": [
-    "2",
-    "3",
-    "4",
-    "6",
-    "7",
-    "9",
-    "10",
-    "11",
-    "12",
-    "13",
-    "16",
-    "18"
-   ]
+   "tipo": "Bebida",
+   "veces": 35,
+   "cantidad": 48,
+   "ingreso_mad": 862,
+   "precio_medio": 10
   },
   {
    "nombre": "Water",
-   "categoria": "Plato principal",
-   "veces": 16,
-   "cantidad": 31,
-   "ingreso_mad": 330.0,
-   "ingreso_eur": 30.56,
-   "precio_medio": 10.65,
-   "fotos": [
-    "1",
-    "2",
-    "3",
-    "5",
-    "7",
-    "8",
-    "10",
-    "11",
-    "15",
-    "18"
-   ]
-  },
-  {
-   "nombre": "Water Bottle",
-   "categoria": "Plato principal",
-   "veces": 13,
-   "cantidad": 15,
-   "ingreso_mad": 380.0,
-   "ingreso_eur": 35.19,
-   "precio_medio": 25.33,
-   "fotos": [
-    "1",
-    "2",
-    "6",
-    "7",
-    "9",
-    "11",
-    "14",
-    "19"
-   ]
+   "tipo": "Bebida",
+   "veces": 20,
+   "cantidad": 37,
+   "ingreso_mad": 390,
+   "precio_medio": 10
   },
   {
    "nombre": "Iced Tea",
-   "categoria": "Plato principal",
-   "veces": 11,
-   "cantidad": 12,
-   "ingreso_mad": 280.0,
-   "ingreso_eur": 25.93,
-   "precio_medio": 23.33,
-   "fotos": [
-    "5",
-    "6",
-    "12",
-    "13",
-    "14",
-    "15"
-   ]
+   "tipo": "Bebida",
+   "veces": 20,
+   "cantidad": 25,
+   "ingreso_mad": 445,
+   "precio_medio": 15
   },
   {
-   "nombre": "Bubble T Taro",
-   "categoria": "Plato principal",
-   "veces": 6,
-   "cantidad": 9,
-   "ingreso_mad": 55.0,
-   "ingreso_eur": 5.09,
-   "precio_medio": 6.11,
-   "fotos": [
-    "5",
-    "15"
-   ]
+   "nombre": "Water Bottle",
+   "tipo": "Bebida",
+   "veces": 15,
+   "cantidad": 17,
+   "ingreso_mad": 640,
+   "precio_medio": 20
   },
   {
    "nombre": "Water Small",
-   "categoria": "Plato principal",
+   "tipo": "Bebida",
+   "veces": 11,
+   "cantidad": 13,
+   "ingreso_mad": 110,
+   "precio_medio": 10
+  },
+  {
+   "nombre": "Bubble T Taro",
+   "tipo": "Bebida",
    "veces": 7,
-   "cantidad": 8,
-   "ingreso_mad": 60.0,
-   "ingreso_eur": 5.56,
-   "precio_medio": 7.5,
-   "fotos": [
-    "1",
-    "5",
-    "12",
-    "13",
-    "19"
-   ]
+   "cantidad": 10,
+   "ingreso_mad": 235,
+   "precio_medio": 55
   },
   {
    "nombre": "Water Big",
-   "categoria": "Plato principal",
+   "tipo": "Bebida",
+   "veces": 6,
+   "cantidad": 7,
+   "ingreso_mad": 140,
+   "precio_medio": 20
+  },
+  {
+   "nombre": "Cola Zero",
+   "tipo": "Bebida",
    "veces": 5,
-   "cantidad": 6,
-   "ingreso_mad": 120.0,
-   "ingreso_eur": 11.11,
-   "precio_medio": 20.0,
-   "fotos": [
-    "1",
-    "8",
-    "13",
-    "16"
-   ]
+   "cantidad": 7,
+   "ingreso_mad": 105,
+   "precio_medio": 15
   },
   {
    "nombre": "Apple Juice",
-   "categoria": "Plato principal",
+   "tipo": "Bebida",
    "veces": 5,
    "cantidad": 5,
-   "ingreso_mad": 45.0,
-   "ingreso_eur": 4.17,
-   "precio_medio": 9.0,
-   "fotos": [
-    "2",
-    "7",
-    "17",
-    "18"
-   ]
+   "ingreso_mad": 45,
+   "precio_medio": 15
   },
   {
    "nombre": "Orange Juice",
-   "categoria": "Plato principal",
+   "tipo": "Bebida",
    "veces": 4,
    "cantidad": 5,
-   "ingreso_mad": 130.0,
-   "ingreso_eur": 12.04,
-   "precio_medio": 26.0,
-   "fotos": [
-    "3",
-    "4",
-    "8",
-    "17"
-   ]
-  },
-  {
-   "nombre": "Tonic Water",
-   "categoria": "Plato principal",
-   "veces": 4,
-   "cantidad": 4,
-   "ingreso_mad": 30.0,
-   "ingreso_eur": 2.78,
-   "precio_medio": 7.5,
-   "fotos": [
-    "3",
-    "4",
-    "10"
-   ]
+   "ingreso_mad": 130,
+   "precio_medio": 20
   },
   {
    "nombre": "Bubble T Coco",
-   "categoria": "Plato principal",
+   "tipo": "Bebida",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 0,
+   "precio_medio": null
+  },
+  {
+   "nombre": "Tonic Water",
+   "tipo": "Bebida",
    "veces": 4,
    "cantidad": 4,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "5"
-   ]
-  },
-  {
-   "nombre": "MsR Drink",
-   "categoria": "Plato principal",
-   "veces": 2,
-   "cantidad": 3,
-   "ingreso_mad": 85.0,
-   "ingreso_eur": 7.87,
-   "precio_medio": 28.33,
-   "fotos": [
-    "6"
-   ]
-  },
-  {
-   "nombre": "Bubble T Jasmin",
-   "categoria": "Plato principal",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 85.0,
-   "ingreso_eur": 7.87,
-   "precio_medio": 42.5,
-   "fotos": [
-    "5"
-   ]
-  },
-  {
-   "nombre": "Iced Tea Lemon",
-   "categoria": "Plato principal",
-   "veces": 1,
-   "cantidad": 2,
-   "ingreso_mad": 0.0,
-   "ingreso_eur": 0.0,
-   "precio_medio": 0.0,
-   "fotos": [
-    "5"
-   ]
+   "ingreso_mad": 30,
+   "precio_medio": 15
   },
   {
    "nombre": "Tea",
-   "categoria": "Plato principal",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 20.0,
-   "ingreso_eur": 1.85,
-   "precio_medio": 10.0,
-   "fotos": [
-    "6"
-   ]
+   "tipo": "Bebida",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 110,
+   "precio_medio": 20
   },
   {
-   "nombre": "Iced Tea Peach",
-   "categoria": "Plato principal",
+   "nombre": "MsR Drink",
+   "tipo": "Bebida",
+   "veces": 2,
+   "cantidad": 3,
+   "ingreso_mad": 85,
+   "precio_medio": 35
+  },
+  {
+   "nombre": "Bubble T Jasmin",
+   "tipo": "Bebida",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 85,
+   "precio_medio": 85
+  },
+  {
+   "nombre": "Thai Milk Tea",
+   "tipo": "Bebida",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 110,
+   "precio_medio": 55
+  },
+  {
+   "nombre": "Mango Coco",
+   "tipo": "Bebida",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 110,
+   "precio_medio": 55
+  },
+  {
+   "nombre": "Lemon Soda",
+   "tipo": "Bebida",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 15.0,
-   "ingreso_eur": 1.39,
-   "precio_medio": 15.0,
-   "fotos": [
-    "16"
-   ]
+   "ingreso_mad": 15,
+   "precio_medio": 15
+  },
+  {
+   "nombre": "Choco Loco",
+   "tipo": "Bebida",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 70,
+   "precio_medio": 70
   }
  ]
 }
