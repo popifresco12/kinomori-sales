@@ -11,8 +11,8 @@
   "ingreso_mad": 50342,
   "ingreso_eur": 4661.3,
   "fotos": 28,
-  "lineas": 851,
-  "platos_unicos": 75,
+  "lineas": 839,
+  "platos_unicos": 67,
   "bebidas_unicas": 20
  },
  "fotos": [
@@ -193,7 +193,7 @@
    "cantidad": 105,
    "ingreso_mad": 6635,
    "precio_medio": 65,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Peanut Noodles",
@@ -202,7 +202,7 @@
    "cantidad": 83,
    "ingreso_mad": 5315,
    "precio_medio": 65,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Nasi Goreng",
@@ -211,7 +211,7 @@
    "cantidad": 77,
    "ingreso_mad": 4400,
    "precio_medio": 65,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Mee Siam",
@@ -220,7 +220,7 @@
    "cantidad": 58,
    "ingreso_mad": 3340,
    "precio_medio": 60,
-   "categoria": "Platos principales"
+   "categoria": "Curries"
   },
   {
    "nombre": "Dumpling Veg",
@@ -229,7 +229,7 @@
    "cantidad": 56,
    "ingreso_mad": 3271,
    "precio_medio": 60,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Soup Noodles",
@@ -238,7 +238,7 @@
    "cantidad": 29,
    "ingreso_mad": 1540,
    "precio_medio": 65,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Korean BBQ Bowl",
@@ -247,7 +247,7 @@
    "cantidad": 25,
    "ingreso_mad": 1730,
    "precio_medio": 75,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Dandan Noodles",
@@ -256,7 +256,7 @@
    "cantidad": 21,
    "ingreso_mad": 1310,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Eggplant Lover",
@@ -265,7 +265,7 @@
    "cantidad": 20,
    "ingreso_mad": 1270,
    "precio_medio": 70,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Thai Beef Rice",
@@ -274,7 +274,7 @@
    "cantidad": 18,
    "ingreso_mad": 1265,
    "precio_medio": 75,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Biang Biang Mian",
@@ -283,7 +283,7 @@
    "cantidad": 16,
    "ingreso_mad": 1130,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Zhajiang Noodles",
@@ -292,7 +292,7 @@
    "cantidad": 13,
    "ingreso_mad": 735,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Pho",
@@ -301,7 +301,7 @@
    "cantidad": 12,
    "ingreso_mad": 935,
    "precio_medio": 80,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Cold Noodles",
@@ -310,7 +310,7 @@
    "cantidad": 12,
    "ingreso_mad": 695,
    "precio_medio": 60,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Thai Curry",
@@ -319,7 +319,7 @@
    "cantidad": 11,
    "ingreso_mad": 820,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Curries"
   },
   {
    "nombre": "Combo Thai/Chicken",
@@ -328,7 +328,7 @@
    "cantidad": 11,
    "ingreso_mad": 630,
    "precio_medio": 70,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Combo Thai/Disan",
@@ -337,7 +337,7 @@
    "cantidad": 11,
    "ingreso_mad": 710,
    "precio_medio": 70,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Spring Roll",
@@ -346,7 +346,7 @@
    "cantidad": 11,
    "ingreso_mad": 355,
    "precio_medio": 35,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Kung Pao",
@@ -355,7 +355,7 @@
    "cantidad": 10,
    "ingreso_mad": 675,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Goji Soup",
@@ -364,7 +364,7 @@
    "cantidad": 9,
    "ingreso_mad": 635,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Sopas"
   }
  ],
  "top_bebidas": [
@@ -467,7 +467,7 @@
    "cantidad": 105,
    "ingreso_mad": 6635,
    "precio_medio": 65,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Peanut Noodles",
@@ -476,7 +476,7 @@
    "cantidad": 83,
    "ingreso_mad": 5315,
    "precio_medio": 65,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Nasi Goreng",
@@ -485,7 +485,7 @@
    "cantidad": 77,
    "ingreso_mad": 4400,
    "precio_medio": 65,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Mee Siam",
@@ -494,7 +494,7 @@
    "cantidad": 58,
    "ingreso_mad": 3340,
    "precio_medio": 60,
-   "categoria": "Platos principales"
+   "categoria": "Curries"
   },
   {
    "nombre": "Dumpling Veg",
@@ -503,7 +503,7 @@
    "cantidad": 56,
    "ingreso_mad": 3271,
    "precio_medio": 60,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Soup Noodles",
@@ -512,7 +512,7 @@
    "cantidad": 29,
    "ingreso_mad": 1540,
    "precio_medio": 65,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Korean BBQ Bowl",
@@ -521,7 +521,7 @@
    "cantidad": 25,
    "ingreso_mad": 1730,
    "precio_medio": 75,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Dandan Noodles",
@@ -530,7 +530,7 @@
    "cantidad": 21,
    "ingreso_mad": 1310,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Eggplant Lover",
@@ -539,7 +539,7 @@
    "cantidad": 20,
    "ingreso_mad": 1270,
    "precio_medio": 70,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Thai Beef Rice",
@@ -548,7 +548,7 @@
    "cantidad": 18,
    "ingreso_mad": 1265,
    "precio_medio": 75,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Biang Biang Mian",
@@ -557,7 +557,7 @@
    "cantidad": 16,
    "ingreso_mad": 1130,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Zhajiang Noodles",
@@ -566,7 +566,7 @@
    "cantidad": 13,
    "ingreso_mad": 735,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Pho",
@@ -575,7 +575,7 @@
    "cantidad": 12,
    "ingreso_mad": 935,
    "precio_medio": 80,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Cold Noodles",
@@ -584,7 +584,7 @@
    "cantidad": 12,
    "ingreso_mad": 695,
    "precio_medio": 60,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Thai Curry",
@@ -593,7 +593,7 @@
    "cantidad": 11,
    "ingreso_mad": 820,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Curries"
   },
   {
    "nombre": "Combo Thai/Chicken",
@@ -602,7 +602,7 @@
    "cantidad": 11,
    "ingreso_mad": 630,
    "precio_medio": 70,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Combo Thai/Disan",
@@ -611,7 +611,7 @@
    "cantidad": 11,
    "ingreso_mad": 710,
    "precio_medio": 70,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Spring Roll",
@@ -620,7 +620,7 @@
    "cantidad": 11,
    "ingreso_mad": 355,
    "precio_medio": 35,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Kung Pao",
@@ -629,7 +629,7 @@
    "cantidad": 10,
    "ingreso_mad": 675,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Goji Soup",
@@ -638,7 +638,7 @@
    "cantidad": 9,
    "ingreso_mad": 635,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Sopas"
   },
   {
    "nombre": "Yunnan Soup Noodles",
@@ -647,7 +647,7 @@
    "cantidad": 9,
    "ingreso_mad": 675,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Hainan Chicken",
@@ -656,7 +656,7 @@
    "cantidad": 8,
    "ingreso_mad": 555,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Sichuan Noodles",
@@ -665,7 +665,7 @@
    "cantidad": 8,
    "ingreso_mad": 445,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Salad",
@@ -674,7 +674,7 @@
    "cantidad": 7,
    "ingreso_mad": 100,
    "precio_medio": 100,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Otros"
   },
   {
    "nombre": "Dumpling Soup",
@@ -683,7 +683,7 @@
    "cantidad": 6,
    "ingreso_mad": 255,
    "precio_medio": 65,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Spicy Dry",
@@ -692,7 +692,7 @@
    "cantidad": 6,
    "ingreso_mad": 420,
    "precio_medio": 70,
-   "categoria": "Platos principales"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Beijing Zhajiang",
@@ -701,7 +701,7 @@
    "cantidad": 5,
    "ingreso_mad": 395,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Dumpling Beef Spicy",
@@ -710,7 +710,7 @@
    "cantidad": 5,
    "ingreso_mad": 321,
    "precio_medio": 65,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Mama Soup",
@@ -719,7 +719,7 @@
    "cantidad": 5,
    "ingreso_mad": 225,
    "precio_medio": 45,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Sopas"
   },
   {
    "nombre": "Miso Dandan",
@@ -728,7 +728,7 @@
    "cantidad": 5,
    "ingreso_mad": 375,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Beijing Noodles",
@@ -737,7 +737,7 @@
    "cantidad": 4,
    "ingreso_mad": 305,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Goji Noodles",
@@ -746,16 +746,7 @@
    "cantidad": 4,
    "ingreso_mad": 300,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
-  },
-  {
-   "nombre": "(falta)",
-   "tipo": "Plato",
-   "veces": 4,
-   "cantidad": 4,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Platos principales"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Korean Chicken",
@@ -764,7 +755,7 @@
    "cantidad": 3,
    "ingreso_mad": 230,
    "precio_medio": 80,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Korean Amber",
@@ -773,7 +764,7 @@
    "cantidad": 3,
    "ingreso_mad": 225,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Sesame Wonton",
@@ -782,7 +773,7 @@
    "cantidad": 3,
    "ingreso_mad": 225,
    "precio_medio": 75,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Spicy Squid",
@@ -791,7 +782,7 @@
    "cantidad": 3,
    "ingreso_mad": 225,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Chicken Soup",
@@ -800,7 +791,7 @@
    "cantidad": 3,
    "ingreso_mad": 195,
    "precio_medio": 65,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Sopas"
   },
   {
    "nombre": "Rice Combo",
@@ -809,7 +800,7 @@
    "cantidad": 2,
    "ingreso_mad": 70,
    "precio_medio": 70,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Dumpling Beef Crispy",
@@ -818,16 +809,7 @@
    "cantidad": 2,
    "ingreso_mad": 130,
    "precio_medio": 65,
-   "categoria": "Dumplings/Entrantes"
-  },
-  {
-   "nombre": "Cash",
-   "tipo": "Plato",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Platos principales"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Dumpling V + Dumpling B",
@@ -836,7 +818,7 @@
    "cantidad": 2,
    "ingreso_mad": 125,
    "precio_medio": 62.5,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Take Away",
@@ -845,7 +827,7 @@
    "cantidad": 2,
    "ingreso_mad": 65,
    "precio_medio": 65,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "3 in 1",
@@ -854,7 +836,7 @@
    "cantidad": 2,
    "ingreso_mad": 150,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Massaman",
@@ -863,7 +845,7 @@
    "cantidad": 2,
    "ingreso_mad": 120,
    "precio_medio": 60,
-   "categoria": "Platos principales"
+   "categoria": "Curries"
   },
   {
    "nombre": "Bot Dumpling",
@@ -872,7 +854,7 @@
    "cantidad": 2,
    "ingreso_mad": 260,
    "precio_medio": 130,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Spicy Dry Wonton",
@@ -881,7 +863,7 @@
    "cantidad": 2,
    "ingreso_mad": 140,
    "precio_medio": 70,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Curry Egg",
@@ -890,7 +872,7 @@
    "cantidad": 2,
    "ingreso_mad": 130,
    "precio_medio": 65,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Curry Beef",
@@ -899,16 +881,7 @@
    "cantidad": 2,
    "ingreso_mad": 150,
    "precio_medio": 75,
-   "categoria": "Platos principales"
-  },
-  {
-   "nombre": "Peanut sauce",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Platos principales"
+   "categoria": "Curries"
   },
   {
    "nombre": "Dumpling Veg Spicy",
@@ -917,7 +890,7 @@
    "cantidad": 1,
    "ingreso_mad": 60,
    "precio_medio": 60,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Combo Breff Dixian (Hot)",
@@ -926,7 +899,7 @@
    "cantidad": 1,
    "ingreso_mad": 0,
    "precio_medio": null,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Combo Veg",
@@ -935,7 +908,7 @@
    "cantidad": 1,
    "ingreso_mad": 0,
    "precio_medio": null,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Combo B/DIY",
@@ -944,25 +917,7 @@
    "cantidad": 1,
    "ingreso_mad": 0,
    "precio_medio": null,
-   "categoria": "Combos/BBQ"
-  },
-  {
-   "nombre": "Método",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Platos principales"
-  },
-  {
-   "nombre": "paid",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Platos principales"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Rice Combo Thai/Disan",
@@ -971,7 +926,7 @@
    "cantidad": 1,
    "ingreso_mad": 0,
    "precio_medio": null,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Tender Chicken",
@@ -980,7 +935,7 @@
    "cantidad": 1,
    "ingreso_mad": 25,
    "precio_medio": 25,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Dumpling Fried",
@@ -989,7 +944,7 @@
    "cantidad": 1,
    "ingreso_mad": 0,
    "precio_medio": null,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Combo Thai/Eggplant",
@@ -998,7 +953,7 @@
    "cantidad": 1,
    "ingreso_mad": 70,
    "precio_medio": 70,
-   "categoria": "Combos/BBQ"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Japanese BBQ",
@@ -1007,16 +962,7 @@
    "cantidad": 1,
    "ingreso_mad": 25,
    "precio_medio": 25,
-   "categoria": "Combos/BBQ"
-  },
-  {
-   "nombre": "No Egg",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Platos principales"
+   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Korean Amber Chicken",
@@ -1025,7 +971,7 @@
    "cantidad": 1,
    "ingreso_mad": 75,
    "precio_medio": 75,
-   "categoria": "Platos principales"
+   "categoria": "Otros"
   },
   {
    "nombre": "Dumpling Souce",
@@ -1034,7 +980,7 @@
    "cantidad": 1,
    "ingreso_mad": 65,
    "precio_medio": 65,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Salad Spinach",
@@ -1043,7 +989,7 @@
    "cantidad": 1,
    "ingreso_mad": 50,
    "precio_medio": 50,
-   "categoria": "Dumplings/Entrantes"
+   "categoria": "Otros"
   },
   {
    "nombre": "Dumpling N Boiled",
@@ -1052,16 +998,7 @@
    "cantidad": 1,
    "ingreso_mad": 60,
    "precio_medio": 60,
-   "categoria": "Dumplings/Entrantes"
-  },
-  {
-   "nombre": "Shout/Short",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Platos principales"
+   "categoria": "Dumplings"
   },
   {
    "nombre": "Tossed Peanut Sauce Veg",
@@ -1070,7 +1007,7 @@
    "cantidad": 1,
    "ingreso_mad": 70,
    "precio_medio": 70,
-   "categoria": "Platos principales"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Sichuan Mala Rice",
@@ -1079,7 +1016,7 @@
    "cantidad": 1,
    "ingreso_mad": 75,
    "precio_medio": 75,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Peanut Noodle TA",
@@ -1088,16 +1025,7 @@
    "cantidad": 1,
    "ingreso_mad": 70,
    "precio_medio": 70,
-   "categoria": "Fideos/Sopas"
-  },
-  {
-   "nombre": "KD",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Platos principales"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Peanut Noodle Ice",
@@ -1106,7 +1034,7 @@
    "cantidad": 1,
    "ingreso_mad": 60,
    "precio_medio": 60,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   },
   {
    "nombre": "Bibimbap",
@@ -1115,7 +1043,7 @@
    "cantidad": 1,
    "ingreso_mad": 65,
    "precio_medio": 65,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Fried Rice",
@@ -1124,7 +1052,7 @@
    "cantidad": 1,
    "ingreso_mad": 60,
    "precio_medio": 60,
-   "categoria": "Arroces/Salteados"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Hakka Noodles",
@@ -1133,7 +1061,7 @@
    "cantidad": 1,
    "ingreso_mad": 75,
    "precio_medio": 75,
-   "categoria": "Fideos/Sopas"
+   "categoria": "Fideos"
   }
  ],
  "todos_bebidas": [
