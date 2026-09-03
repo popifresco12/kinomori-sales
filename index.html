@@ -242,7 +242,8 @@ function chartCategorias() {
   });
   const labels = Object.keys(cats);
   const data = labels.map(l => Math.round(cats[l]));
-  const colors = { 'Plato principal': '#d4a35c', 'Entrante/Dumpling': '#c86b4a', 'Bebida': '#7a9eb1', 'Otro': '#a88bc7' };
+  const colors = { 'Dumplings/Entrantes': '#c86b4a', 'Fideos/Sopas': '#d4a35c', 'Arroces/Salteados': '#8b9e6b',
+                   'Combos/BBQ': '#a88bc7', 'Platos principales': '#e0b060', 'Bebidas': '#7a9eb1', 'Joyería': '#d4885c' };
   new Chart(document.getElementById('categorias'), {
     type: 'doughnut',
     data: {
