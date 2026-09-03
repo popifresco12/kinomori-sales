@@ -8,8 +8,8 @@
   "nota": "Incluye 9 hojas de menú ampliado. Catálogo normalizado (sinónimos unificados). Bebidas fuera del top platos."
  },
  "totales": {
-  "ingreso_mad": 50342,
-  "ingreso_eur": 4661.3,
+  "ingreso_mad": 50234,
+  "ingreso_eur": 4651.3,
   "fotos": 28,
   "lineas": 839,
   "platos_unicos": 67,
@@ -54,14 +54,14 @@
   },
   {
    "foto": "7",
-   "ingreso_mad": 2926.0,
-   "ingreso_eur": 270.93,
+   "ingreso_mad": 2958.0,
+   "ingreso_eur": 273.89,
    "lineas": 49
   },
   {
    "foto": "8",
-   "ingreso_mad": 2006.0,
-   "ingreso_eur": 185.74,
+   "ingreso_mad": 2030.0,
+   "ingreso_eur": 187.96,
    "lineas": 34
   },
   {
@@ -90,8 +90,8 @@
   },
   {
    "foto": "13",
-   "ingreso_mad": 2044.0,
-   "ingreso_eur": 189.26,
+   "ingreso_mad": 2060.0,
+   "ingreso_eur": 190.74,
    "lineas": 37
   },
   {
@@ -120,8 +120,8 @@
   },
   {
    "foto": "18",
-   "ingreso_mad": 3070.0,
-   "ingreso_eur": 284.26,
+   "ingreso_mad": 2890.0,
+   "ingreso_eur": 267.59,
    "lineas": 47
   },
   {
@@ -371,9 +371,9 @@
   {
    "nombre": "Cola",
    "tipo": "Bebida",
-   "veces": 68,
-   "cantidad": 127,
-   "ingreso_mad": 1513,
+   "veces": 50,
+   "cantidad": 92,
+   "ingreso_mad": 1090,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
@@ -396,6 +396,15 @@
    "categoria": "Bebidas"
   },
   {
+   "nombre": "Cola Zero",
+   "tipo": "Bebida",
+   "veces": 23,
+   "cantidad": 30,
+   "ingreso_mad": 420,
+   "precio_medio": 15,
+   "categoria": "Bebidas"
+  },
+  {
    "nombre": "Iced Tea",
    "tipo": "Bebida",
    "veces": 20,
@@ -411,15 +420,6 @@
    "cantidad": 10,
    "ingreso_mad": 235,
    "precio_medio": 55,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Cola Zero",
-   "tipo": "Bebida",
-   "veces": 5,
-   "cantidad": 7,
-   "ingreso_mad": 105,
-   "precio_medio": 15,
    "categoria": "Bebidas"
   },
   {
@@ -1068,9 +1068,9 @@
   {
    "nombre": "Cola",
    "tipo": "Bebida",
-   "veces": 68,
-   "cantidad": 127,
-   "ingreso_mad": 1513,
+   "veces": 50,
+   "cantidad": 92,
+   "ingreso_mad": 1090,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
@@ -1093,6 +1093,15 @@
    "categoria": "Bebidas"
   },
   {
+   "nombre": "Cola Zero",
+   "tipo": "Bebida",
+   "veces": 23,
+   "cantidad": 30,
+   "ingreso_mad": 420,
+   "precio_medio": 15,
+   "categoria": "Bebidas"
+  },
+  {
    "nombre": "Iced Tea",
    "tipo": "Bebida",
    "veces": 20,
@@ -1108,15 +1117,6 @@
    "cantidad": 10,
    "ingreso_mad": 235,
    "precio_medio": 55,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Cola Zero",
-   "tipo": "Bebida",
-   "veces": 5,
-   "cantidad": 7,
-   "ingreso_mad": 105,
-   "precio_medio": 15,
    "categoria": "Bebidas"
   },
   {
