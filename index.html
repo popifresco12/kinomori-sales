@@ -72,7 +72,8 @@
   .chart-card h3 { font-size: 0.95rem; color: var(--accent); margin-bottom: 1rem; }
   .chart-card .note { font-size: 0.7rem; color: var(--muted); margin-top: 0.6rem; }
   .chart-box { position: relative; height: 300px; }
-  .chart-box.tall { height: 400px; }
+  .chart-box.tall { height: 560px; }
+  .chart-card.full { grid-column: 1 / -1; }
 
   .footer {
     text-align: center;
@@ -103,14 +104,14 @@
 <div class="stats-grid" id="statsGrid"></div>
 
 <div class="charts-grid">
-  <div class="chart-card">
+  <div class="chart-card full">
     <h3>🍽️ Top 10 platos más vendidos</h3>
-    <div class="chart-box"><canvas id="topPlatos"></canvas></div>
+    <div class="chart-box tall"><canvas id="topPlatos"></canvas></div>
     <div class="note">Por cantidad de unidades vendidas (19 fotos de comandas)</div>
   </div>
   <div class="chart-card">
     <h3>🥤 Top bebidas</h3>
-    <div class="chart-box"><canvas id="topBebidas"></canvas></div>
+    <div class="chart-box tall"><canvas id="topBebidas"></canvas></div>
     <div class="note">Cola domina; agua embotellada y sparkling le siguen</div>
   </div>
   <div class="chart-card">
@@ -175,8 +176,10 @@ function chartTopPlatos() {
       plugins: { legend: { display: false } },
       scales: {
         x: { grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#a89884' } },
-        y: { ticks: { color: '#f0e6d8', font: { size: 11 } } }
-      }
+        y: { ticks: { color: '#f0e6d8', font: { size: 13 }, autoSkip: false } }
+      },
+      layout: { padding: { top: 4, bottom: 4 } },
+      maintainAspectRatio: false
     }
   });
 }
@@ -198,8 +201,10 @@ function chartTopBebidas() {
       plugins: { legend: { display: false } },
       scales: {
         x: { grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#a89884' } },
-        y: { ticks: { color: '#f0e6d8', font: { size: 11 } } }
-      }
+        y: { ticks: { color: '#f0e6d8', font: { size: 13 }, autoSkip: false } }
+      },
+      layout: { padding: { top: 4, bottom: 4 } },
+      maintainAspectRatio: false
     }
   });
 }
@@ -223,7 +228,8 @@ function chartIngresosDia() {
       scales: {
         x: { grid: { display: false }, ticks: { color: '#a89884', font: { size: 9 } } },
         y: { grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#a89884' } }
-      }
+      },
+      maintainAspectRatio: false
     }
   });
 }
@@ -250,7 +256,8 @@ function chartCategorias() {
     options: {
       plugins: {
         legend: { position: 'bottom', labels: { color: '#f0e6d8', padding: 14 } }
-      }
+      },
+      maintainAspectRatio: false
     }
   });
 }
