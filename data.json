@@ -8,11 +8,11 @@
   "nota": "Incluye 9 hojas de menú ampliado. Catálogo normalizado (sinónimos unificados). Bebidas fuera del top platos."
  },
  "totales": {
-  "ingreso_mad": 55484,
-  "ingreso_eur": 5137.41,
+  "ingreso_mad": 57164,
+  "ingreso_eur": 5292.96,
   "fotos": 30,
-  "lineas": 923,
-  "platos_unicos": 71,
+  "lineas": 924,
+  "platos_unicos": 72,
   "bebidas_unicas": 17
  },
  "fotos": [
@@ -42,9 +42,9 @@
   },
   {
    "foto": "5",
-   "ingreso_mad": 270.0,
-   "ingreso_eur": 25.0,
-   "lineas": 33
+   "ingreso_mad": 1700.0,
+   "ingreso_eur": 157.41,
+   "lineas": 28
   },
   {
    "foto": "6",
@@ -186,9 +186,9 @@
   },
   {
    "foto": "29",
-   "ingreso_mad": 3560.0,
-   "ingreso_eur": 329.63,
-   "lineas": 58
+   "ingreso_mad": 3885.0,
+   "ingreso_eur": 359.72,
+   "lineas": 62
   },
   {
    "foto": "30",
@@ -203,7 +203,7 @@
    "tipo": "Plato",
    "veces": 92,
    "cantidad": 119,
-   "ingreso_mad": 7545,
+   "ingreso_mad": 7530,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
@@ -211,8 +211,8 @@
    "nombre": "Peanut Noodles",
    "tipo": "Plato",
    "veces": 79,
-   "cantidad": 90,
-   "ingreso_mad": 5770,
+   "cantidad": 91,
+   "ingreso_mad": 5835,
    "precio_medio": 65,
    "categoria": "Fideos"
   },
@@ -230,7 +230,7 @@
    "tipo": "Plato",
    "veces": 57,
    "cantidad": 64,
-   "ingreso_mad": 3730,
+   "ingreso_mad": 4030,
    "precio_medio": 60,
    "categoria": "Curries"
   },
@@ -248,7 +248,7 @@
    "tipo": "Plato",
    "veces": 19,
    "cantidad": 29,
-   "ingreso_mad": 1540,
+   "ingreso_mad": 1840,
    "precio_medio": 65,
    "categoria": "Fideos"
   },
@@ -291,9 +291,9 @@
   {
    "nombre": "Pho",
    "tipo": "Plato",
-   "veces": 18,
-   "cantidad": 18,
-   "ingreso_mad": 1385,
+   "veces": 19,
+   "cantidad": 19,
+   "ingreso_mad": 1460,
    "precio_medio": 75,
    "categoria": "Fideos"
   },
@@ -383,36 +383,36 @@
   {
    "nombre": "Cola",
    "tipo": "Bebida",
-   "veces": 55,
-   "cantidad": 102,
-   "ingreso_mad": 1285,
+   "veces": 54,
+   "cantidad": 99,
+   "ingreso_mad": 1255,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Water",
    "tipo": "Bebida",
-   "veces": 56,
+   "veces": 57,
    "cantidad": 78,
-   "ingreso_mad": 1340,
+   "ingreso_mad": 1370,
    "precio_medio": 20,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Sparkling Water",
    "tipo": "Bebida",
-   "veces": 36,
-   "cantidad": 49,
-   "ingreso_mad": 877,
+   "veces": 37,
+   "cantidad": 51,
+   "ingreso_mad": 897,
    "precio_medio": 10,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Cola Zero",
    "tipo": "Bebida",
-   "veces": 25,
-   "cantidad": 32,
-   "ingreso_mad": 460,
+   "veces": 26,
+   "cantidad": 35,
+   "ingreso_mad": 520,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
@@ -421,7 +421,7 @@
    "tipo": "Bebida",
    "veces": 20,
    "cantidad": 25,
-   "ingreso_mad": 445,
+   "ingreso_mad": 490,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
@@ -435,30 +435,12 @@
    "categoria": "Bebidas"
   },
   {
-   "nombre": "Bubble T Taro",
-   "tipo": "Bebida",
-   "veces": 7,
-   "cantidad": 10,
-   "ingreso_mad": 235,
-   "precio_medio": 55,
-   "categoria": "Bebidas"
-  },
-  {
    "nombre": "Apple Juice",
    "tipo": "Bebida",
    "veces": 5,
    "cantidad": 5,
    "ingreso_mad": 45,
    "precio_medio": 15,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Bubble T Coco",
-   "tipo": "Bebida",
-   "veces": 5,
-   "cantidad": 5,
-   "ingreso_mad": 0,
-   "precio_medio": null,
    "categoria": "Bebidas"
   },
   {
@@ -469,6 +451,24 @@
    "ingreso_mad": 135,
    "precio_medio": 25,
    "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Tonic Water",
+   "tipo": "Bebida",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 30,
+   "precio_medio": 15,
+   "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Bubble T Coco",
+   "tipo": "Bebida",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 165,
+   "precio_medio": 55,
+   "categoria": "Bebidas"
   }
  ],
  "todos_platos": [
@@ -477,7 +477,7 @@
    "tipo": "Plato",
    "veces": 92,
    "cantidad": 119,
-   "ingreso_mad": 7545,
+   "ingreso_mad": 7530,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
@@ -485,8 +485,8 @@
    "nombre": "Peanut Noodles",
    "tipo": "Plato",
    "veces": 79,
-   "cantidad": 90,
-   "ingreso_mad": 5770,
+   "cantidad": 91,
+   "ingreso_mad": 5835,
    "precio_medio": 65,
    "categoria": "Fideos"
   },
@@ -504,7 +504,7 @@
    "tipo": "Plato",
    "veces": 57,
    "cantidad": 64,
-   "ingreso_mad": 3730,
+   "ingreso_mad": 4030,
    "precio_medio": 60,
    "categoria": "Curries"
   },
@@ -522,7 +522,7 @@
    "tipo": "Plato",
    "veces": 19,
    "cantidad": 29,
-   "ingreso_mad": 1540,
+   "ingreso_mad": 1840,
    "precio_medio": 65,
    "categoria": "Fideos"
   },
@@ -565,9 +565,9 @@
   {
    "nombre": "Pho",
    "tipo": "Plato",
-   "veces": 18,
-   "cantidad": 18,
-   "ingreso_mad": 1385,
+   "veces": 19,
+   "cantidad": 19,
+   "ingreso_mad": 1460,
    "precio_medio": 75,
    "categoria": "Fideos"
   },
@@ -689,6 +689,15 @@
    "categoria": "Otros"
   },
   {
+   "nombre": "Dumpling Soup",
+   "tipo": "Plato",
+   "veces": 7,
+   "cantidad": 7,
+   "ingreso_mad": 320,
+   "precio_medio": 65,
+   "categoria": "Dumplings"
+  },
+  {
    "nombre": "Cold Tea",
    "tipo": "Plato",
    "veces": 4,
@@ -711,18 +720,9 @@
    "tipo": "Plato",
    "veces": 6,
    "cantidad": 6,
-   "ingreso_mad": 450,
+   "ingreso_mad": 455,
    "precio_medio": 75,
    "categoria": "Otros"
-  },
-  {
-   "nombre": "Dumpling Soup",
-   "tipo": "Plato",
-   "veces": 6,
-   "cantidad": 6,
-   "ingreso_mad": 255,
-   "precio_medio": 65,
-   "categoria": "Dumplings"
   },
   {
    "nombre": "Spicy Dry",
@@ -741,6 +741,15 @@
    "ingreso_mad": 321,
    "precio_medio": 65,
    "categoria": "Dumplings"
+  },
+  {
+   "nombre": "Bubble T",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 5,
+   "ingreso_mad": 275,
+   "precio_medio": 55,
+   "categoria": "Otros"
   },
   {
    "nombre": "Mama Soup",
@@ -779,6 +788,15 @@
    "categoria": "Fideos"
   },
   {
+   "nombre": "Spicy Squid",
+   "tipo": "Plato",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 310,
+   "precio_medio": 75,
+   "categoria": "Otros"
+  },
+  {
    "nombre": "Peanut Sauce Tossed Noodles",
    "tipo": "Plato",
    "veces": 3,
@@ -797,15 +815,6 @@
    "categoria": "Otros"
   },
   {
-   "nombre": "Take Away",
-   "tipo": "Plato",
-   "veces": 3,
-   "cantidad": 3,
-   "ingreso_mad": 65,
-   "precio_medio": 65,
-   "categoria": "Otros"
-  },
-  {
    "nombre": "Sesame Wonton",
    "tipo": "Plato",
    "veces": 2,
@@ -813,15 +822,6 @@
    "ingreso_mad": 225,
    "precio_medio": 75,
    "categoria": "Dumplings"
-  },
-  {
-   "nombre": "Spicy Squid",
-   "tipo": "Plato",
-   "veces": 3,
-   "cantidad": 3,
-   "ingreso_mad": 225,
-   "precio_medio": 75,
-   "categoria": "Otros"
   },
   {
    "nombre": "Chicken Soup",
@@ -867,6 +867,15 @@
    "ingreso_mad": 125,
    "precio_medio": 62.5,
    "categoria": "Dumplings"
+  },
+  {
+   "nombre": "Take Away",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 65,
+   "precio_medio": 65,
+   "categoria": "Otros"
   },
   {
    "nombre": "Japanese BBQ",
@@ -954,8 +963,8 @@
    "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
+   "ingreso_mad": 70,
+   "precio_medio": 70,
    "categoria": "Combos & Bowls"
   },
   {
@@ -963,8 +972,8 @@
    "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
+   "ingreso_mad": 70,
+   "precio_medio": 70,
    "categoria": "Combos & Bowls"
   },
   {
@@ -972,8 +981,8 @@
    "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 0,
-   "precio_medio": null,
+   "ingreso_mad": 70,
+   "precio_medio": 70,
    "categoria": "Combos & Bowls"
   },
   {
@@ -1116,36 +1125,36 @@
   {
    "nombre": "Cola",
    "tipo": "Bebida",
-   "veces": 55,
-   "cantidad": 102,
-   "ingreso_mad": 1285,
+   "veces": 54,
+   "cantidad": 99,
+   "ingreso_mad": 1255,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Water",
    "tipo": "Bebida",
-   "veces": 56,
+   "veces": 57,
    "cantidad": 78,
-   "ingreso_mad": 1340,
+   "ingreso_mad": 1370,
    "precio_medio": 20,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Sparkling Water",
    "tipo": "Bebida",
-   "veces": 36,
-   "cantidad": 49,
-   "ingreso_mad": 877,
+   "veces": 37,
+   "cantidad": 51,
+   "ingreso_mad": 897,
    "precio_medio": 10,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Cola Zero",
    "tipo": "Bebida",
-   "veces": 25,
-   "cantidad": 32,
-   "ingreso_mad": 460,
+   "veces": 26,
+   "cantidad": 35,
+   "ingreso_mad": 520,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
@@ -1154,7 +1163,7 @@
    "tipo": "Bebida",
    "veces": 20,
    "cantidad": 25,
-   "ingreso_mad": 445,
+   "ingreso_mad": 490,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
@@ -1168,30 +1177,12 @@
    "categoria": "Bebidas"
   },
   {
-   "nombre": "Bubble T Taro",
-   "tipo": "Bebida",
-   "veces": 7,
-   "cantidad": 10,
-   "ingreso_mad": 235,
-   "precio_medio": 55,
-   "categoria": "Bebidas"
-  },
-  {
    "nombre": "Apple Juice",
    "tipo": "Bebida",
    "veces": 5,
    "cantidad": 5,
    "ingreso_mad": 45,
    "precio_medio": 15,
-   "categoria": "Bebidas"
-  },
-  {
-   "nombre": "Bubble T Coco",
-   "tipo": "Bebida",
-   "veces": 5,
-   "cantidad": 5,
-   "ingreso_mad": 0,
-   "precio_medio": null,
    "categoria": "Bebidas"
   },
   {
@@ -1213,6 +1204,24 @@
    "categoria": "Bebidas"
   },
   {
+   "nombre": "Bubble T Coco",
+   "tipo": "Bebida",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 165,
+   "precio_medio": 55,
+   "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Bubble T Taro",
+   "tipo": "Bebida",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 290,
+   "precio_medio": 55,
+   "categoria": "Bebidas"
+  },
+  {
    "nombre": "Thai Milk Tea",
    "tipo": "Bebida",
    "veces": 4,
@@ -1231,20 +1240,20 @@
    "categoria": "Bebidas"
   },
   {
-   "nombre": "Bubble T Jasmin",
-   "tipo": "Bebida",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 85,
-   "precio_medio": 85,
-   "categoria": "Bebidas"
-  },
-  {
    "nombre": "Mango Coco",
    "tipo": "Bebida",
    "veces": 2,
    "cantidad": 2,
    "ingreso_mad": 110,
+   "precio_medio": 55,
+   "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Bubble T Jasmin",
+   "tipo": "Bebida",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 55,
    "precio_medio": 55,
    "categoria": "Bebidas"
   },
