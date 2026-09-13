@@ -8,8 +8,8 @@
   "nota": "Incluye 9 hojas de menú ampliado. Catálogo normalizado (sinónimos unificados). Bebidas fuera del top platos."
  },
  "totales": {
-  "ingreso_mad": 66429.0,
-  "ingreso_eur": 6150.83,
+  "ingreso_mad": 66439.0,
+  "ingreso_eur": 6151.76,
   "fotos": 35,
   "lineas": 1073,
   "platos_unicos": 82,
@@ -222,8 +222,8 @@
   },
   {
    "foto": "35",
-   "ingreso_mad": 1365.0,
-   "ingreso_eur": 126.39,
+   "ingreso_mad": 1375.0,
+   "ingreso_eur": 127.31,
    "lineas": 26
   }
  ],
@@ -359,7 +359,7 @@
    "tipo": "Plato",
    "veces": 13,
    "cantidad": 14,
-   "ingreso_mad": 965,
+   "ingreso_mad": 975,
    "precio_medio": 75,
    "categoria": "Otros"
   },
@@ -633,7 +633,7 @@
    "tipo": "Plato",
    "veces": 13,
    "cantidad": 14,
-   "ingreso_mad": 965,
+   "ingreso_mad": 975,
    "precio_medio": 75,
    "categoria": "Otros"
   },
