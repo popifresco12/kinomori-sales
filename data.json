@@ -902,6 +902,15 @@
    "categoria": "Otros"
   },
   {
+   "nombre": "Platos sin detalle",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 4,
+   "ingreso_mad": 320,
+   "precio_medio": 80,
+   "categoria": "Otros"
+  },
+  {
    "nombre": "Korean Chicken",
    "tipo": "Plato",
    "veces": 3,
@@ -1322,15 +1331,6 @@
    "cantidad": 1,
    "ingreso_mad": 0,
    "precio_medio": null,
-   "categoria": "Otros"
-  },
-  {
-   "nombre": "⚠️ no visible en la hoja",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 320,
-   "precio_medio": 320,
    "categoria": "Otros"
   }
  ],
