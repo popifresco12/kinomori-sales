@@ -11,8 +11,8 @@
   "ingreso_mad": 79849.0,
   "ingreso_eur": 7393.43,
   "fotos": 40,
-  "lineas": 1295,
-  "platos_unicos": 89,
+  "lineas": 1294,
+  "platos_unicos": 88,
   "bebidas_unicas": 20
  },
  "fotos": [
@@ -899,15 +899,6 @@
    "cantidad": 4,
    "ingreso_mad": 260,
    "precio_medio": 65,
-   "categoria": "Otros"
-  },
-  {
-   "nombre": "Platos sin detalle",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 4,
-   "ingreso_mad": 320,
-   "precio_medio": 80,
    "categoria": "Otros"
   },
   {
