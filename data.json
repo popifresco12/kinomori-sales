@@ -8,11 +8,11 @@
   "nota": "Incluye 9 hojas de menú ampliado. Catálogo normalizado (sinónimos unificados). Bebidas fuera del top platos."
  },
  "totales": {
-  "ingreso_mad": 87009.0,
-  "ingreso_eur": 8056.39,
-  "fotos": 43,
-  "lineas": 1417,
-  "platos_unicos": 92,
+  "ingreso_mad": 88489.0,
+  "ingreso_eur": 8193.43,
+  "fotos": 44,
+  "lineas": 1440,
+  "platos_unicos": 93,
   "bebidas_unicas": 20
  },
  "fotos": [
@@ -273,24 +273,30 @@
    "ingreso_mad": 1815.0,
    "ingreso_eur": 168.06,
    "lineas": 33
+  },
+  {
+   "foto": "44",
+   "ingreso_mad": 1480.0,
+   "ingreso_eur": 137.04,
+   "lineas": 23
   }
  ],
  "top_platos": [
   {
    "nombre": "Dumpling Beef",
    "tipo": "Plato",
-   "veces": 140,
-   "cantidad": 176,
-   "ingreso_mad": 11250,
+   "veces": 143,
+   "cantidad": 181,
+   "ingreso_mad": 11575,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
   {
    "nombre": "Peanut Noodles",
    "tipo": "Plato",
-   "veces": 108,
-   "cantidad": 122,
-   "ingreso_mad": 7850,
+   "veces": 110,
+   "cantidad": 124,
+   "ingreso_mad": 7980,
    "precio_medio": 65,
    "categoria": "Fideos"
   },
@@ -306,9 +312,9 @@
   {
    "nombre": "Dumpling Veg",
    "tipo": "Plato",
-   "veces": 75,
-   "cantidad": 88,
-   "ingreso_mad": 5071,
+   "veces": 76,
+   "cantidad": 90,
+   "ingreso_mad": 5191,
    "precio_medio": 60,
    "categoria": "Dumplings"
   },
@@ -324,9 +330,9 @@
   {
    "nombre": "Korean BBQ Bowl",
    "tipo": "Plato",
-   "veces": 44,
-   "cantidad": 47,
-   "ingreso_mad": 3250,
+   "veces": 45,
+   "cantidad": 48,
+   "ingreso_mad": 3320,
    "precio_medio": 75,
    "categoria": "Combos & Bowls"
   },
@@ -351,10 +357,19 @@
   {
    "nombre": "Dandan Noodles",
    "tipo": "Plato",
-   "veces": 26,
-   "cantidad": 32,
-   "ingreso_mad": 2065,
+   "veces": 27,
+   "cantidad": 33,
+   "ingreso_mad": 2140,
    "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Mie Goreng",
+   "tipo": "Plato",
+   "veces": 28,
+   "cantidad": 30,
+   "ingreso_mad": 1995,
+   "precio_medio": 70,
    "categoria": "Fideos"
   },
   {
@@ -367,15 +382,6 @@
    "categoria": "Fideos"
   },
   {
-   "nombre": "Mie Goreng",
-   "tipo": "Plato",
-   "veces": 26,
-   "cantidad": 28,
-   "ingreso_mad": 1865,
-   "precio_medio": 70,
-   "categoria": "Fideos"
-  },
-  {
    "nombre": "Thai Curry",
    "tipo": "Plato",
    "veces": 24,
@@ -383,6 +389,15 @@
    "ingreso_mad": 2105,
    "precio_medio": 80,
    "categoria": "Curries"
+  },
+  {
+   "nombre": "Zhajiang Noodles",
+   "tipo": "Plato",
+   "veces": 24,
+   "cantidad": 25,
+   "ingreso_mad": 1635,
+   "precio_medio": 75,
+   "categoria": "Fideos"
   },
   {
    "nombre": "Hainan Chicken",
@@ -394,22 +409,22 @@
    "categoria": "Otros"
   },
   {
-   "nombre": "Zhajiang Noodles",
-   "tipo": "Plato",
-   "veces": 23,
-   "cantidad": 24,
-   "ingreso_mad": 1560,
-   "precio_medio": 75,
-   "categoria": "Fideos"
-  },
-  {
    "nombre": "Kung Pao",
    "tipo": "Plato",
-   "veces": 21,
-   "cantidad": 22,
-   "ingreso_mad": 1560,
+   "veces": 22,
+   "cantidad": 23,
+   "ingreso_mad": 1635,
    "precio_medio": 75,
    "categoria": "Otros"
+  },
+  {
+   "nombre": "Thai Kra Pao Beef Rice",
+   "tipo": "Plato",
+   "veces": 21,
+   "cantidad": 23,
+   "ingreso_mad": 1725,
+   "precio_medio": 75,
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Eggplant Lover",
@@ -421,20 +436,11 @@
    "categoria": "Otros"
   },
   {
-   "nombre": "Thai Kra Pao Beef Rice",
-   "tipo": "Plato",
-   "veces": 20,
-   "cantidad": 22,
-   "ingreso_mad": 1650,
-   "precio_medio": 75,
-   "categoria": "Arroz & Salteados"
-  },
-  {
    "nombre": "Tropical Iced Tea",
    "tipo": "Plato",
-   "veces": 12,
-   "cantidad": 17,
-   "ingreso_mad": 510,
+   "veces": 15,
+   "cantidad": 21,
+   "ingreso_mad": 630,
    "precio_medio": 30,
    "categoria": "Otros"
   },
@@ -470,36 +476,36 @@
   {
    "nombre": "Water",
    "tipo": "Bebida",
-   "veces": 89,
-   "cantidad": 113,
-   "ingreso_mad": 1965,
+   "veces": 90,
+   "cantidad": 114,
+   "ingreso_mad": 1975,
    "precio_medio": 20,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Sparkling Water",
    "tipo": "Bebida",
-   "veces": 50,
-   "cantidad": 68,
-   "ingreso_mad": 1167,
+   "veces": 51,
+   "cantidad": 69,
+   "ingreso_mad": 1182,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Cola Zero",
    "tipo": "Bebida",
-   "veces": 36,
-   "cantidad": 48,
-   "ingreso_mad": 780,
+   "veces": 37,
+   "cantidad": 50,
+   "ingreso_mad": 820,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Lemonade",
    "tipo": "Bebida",
-   "veces": 36,
-   "cantidad": 47,
-   "ingreso_mad": 1320,
+   "veces": 38,
+   "cantidad": 49,
+   "ingreso_mad": 1390,
    "precio_medio": 25,
    "categoria": "Bebidas"
   },
@@ -553,18 +559,18 @@
   {
    "nombre": "Dumpling Beef",
    "tipo": "Plato",
-   "veces": 140,
-   "cantidad": 176,
-   "ingreso_mad": 11250,
+   "veces": 143,
+   "cantidad": 181,
+   "ingreso_mad": 11575,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
   {
    "nombre": "Peanut Noodles",
    "tipo": "Plato",
-   "veces": 108,
-   "cantidad": 122,
-   "ingreso_mad": 7850,
+   "veces": 110,
+   "cantidad": 124,
+   "ingreso_mad": 7980,
    "precio_medio": 65,
    "categoria": "Fideos"
   },
@@ -580,9 +586,9 @@
   {
    "nombre": "Dumpling Veg",
    "tipo": "Plato",
-   "veces": 75,
-   "cantidad": 88,
-   "ingreso_mad": 5071,
+   "veces": 76,
+   "cantidad": 90,
+   "ingreso_mad": 5191,
    "precio_medio": 60,
    "categoria": "Dumplings"
   },
@@ -598,9 +604,9 @@
   {
    "nombre": "Korean BBQ Bowl",
    "tipo": "Plato",
-   "veces": 44,
-   "cantidad": 47,
-   "ingreso_mad": 3250,
+   "veces": 45,
+   "cantidad": 48,
+   "ingreso_mad": 3320,
    "precio_medio": 75,
    "categoria": "Combos & Bowls"
   },
@@ -625,10 +631,19 @@
   {
    "nombre": "Dandan Noodles",
    "tipo": "Plato",
-   "veces": 26,
-   "cantidad": 32,
-   "ingreso_mad": 2065,
+   "veces": 27,
+   "cantidad": 33,
+   "ingreso_mad": 2140,
    "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Mie Goreng",
+   "tipo": "Plato",
+   "veces": 28,
+   "cantidad": 30,
+   "ingreso_mad": 1995,
+   "precio_medio": 70,
    "categoria": "Fideos"
   },
   {
@@ -641,15 +656,6 @@
    "categoria": "Fideos"
   },
   {
-   "nombre": "Mie Goreng",
-   "tipo": "Plato",
-   "veces": 26,
-   "cantidad": 28,
-   "ingreso_mad": 1865,
-   "precio_medio": 70,
-   "categoria": "Fideos"
-  },
-  {
    "nombre": "Thai Curry",
    "tipo": "Plato",
    "veces": 24,
@@ -657,6 +663,15 @@
    "ingreso_mad": 2105,
    "precio_medio": 80,
    "categoria": "Curries"
+  },
+  {
+   "nombre": "Zhajiang Noodles",
+   "tipo": "Plato",
+   "veces": 24,
+   "cantidad": 25,
+   "ingreso_mad": 1635,
+   "precio_medio": 75,
+   "categoria": "Fideos"
   },
   {
    "nombre": "Hainan Chicken",
@@ -668,22 +683,22 @@
    "categoria": "Otros"
   },
   {
-   "nombre": "Zhajiang Noodles",
-   "tipo": "Plato",
-   "veces": 23,
-   "cantidad": 24,
-   "ingreso_mad": 1560,
-   "precio_medio": 75,
-   "categoria": "Fideos"
-  },
-  {
    "nombre": "Kung Pao",
    "tipo": "Plato",
-   "veces": 21,
-   "cantidad": 22,
-   "ingreso_mad": 1560,
+   "veces": 22,
+   "cantidad": 23,
+   "ingreso_mad": 1635,
    "precio_medio": 75,
    "categoria": "Otros"
+  },
+  {
+   "nombre": "Thai Kra Pao Beef Rice",
+   "tipo": "Plato",
+   "veces": 21,
+   "cantidad": 23,
+   "ingreso_mad": 1725,
+   "precio_medio": 75,
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Eggplant Lover",
@@ -695,20 +710,11 @@
    "categoria": "Otros"
   },
   {
-   "nombre": "Thai Kra Pao Beef Rice",
-   "tipo": "Plato",
-   "veces": 20,
-   "cantidad": 22,
-   "ingreso_mad": 1650,
-   "precio_medio": 75,
-   "categoria": "Arroz & Salteados"
-  },
-  {
    "nombre": "Tropical Iced Tea",
    "tipo": "Plato",
-   "veces": 12,
-   "cantidad": 17,
-   "ingreso_mad": 510,
+   "veces": 15,
+   "cantidad": 21,
+   "ingreso_mad": 630,
    "precio_medio": 30,
    "categoria": "Otros"
   },
@@ -731,6 +737,15 @@
    "categoria": "Fideos"
   },
   {
+   "nombre": "Sichuan Noodles",
+   "tipo": "Plato",
+   "veces": 11,
+   "cantidad": 12,
+   "ingreso_mad": 745,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
    "nombre": "Cold Noodles",
    "tipo": "Plato",
    "veces": 12,
@@ -747,15 +762,6 @@
    "ingreso_mad": 630,
    "precio_medio": 70,
    "categoria": "Combos & Bowls"
-  },
-  {
-   "nombre": "Sichuan Noodles",
-   "tipo": "Plato",
-   "veces": 10,
-   "cantidad": 11,
-   "ingreso_mad": 670,
-   "precio_medio": 75,
-   "categoria": "Fideos"
   },
   {
    "nombre": "Combo Thai/Disan",
@@ -1377,6 +1383,15 @@
    "ingreso_mad": 0,
    "precio_medio": null,
    "categoria": "Otros"
+  },
+  {
+   "nombre": "Thai Ice Tea",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 75,
+   "precio_medio": 75,
+   "categoria": "Otros"
   }
  ],
  "todos_bebidas": [
@@ -1392,36 +1407,36 @@
   {
    "nombre": "Water",
    "tipo": "Bebida",
-   "veces": 89,
-   "cantidad": 113,
-   "ingreso_mad": 1965,
+   "veces": 90,
+   "cantidad": 114,
+   "ingreso_mad": 1975,
    "precio_medio": 20,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Sparkling Water",
    "tipo": "Bebida",
-   "veces": 50,
-   "cantidad": 68,
-   "ingreso_mad": 1167,
+   "veces": 51,
+   "cantidad": 69,
+   "ingreso_mad": 1182,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Cola Zero",
    "tipo": "Bebida",
-   "veces": 36,
-   "cantidad": 48,
-   "ingreso_mad": 780,
+   "veces": 37,
+   "cantidad": 50,
+   "ingreso_mad": 820,
    "precio_medio": 15,
    "categoria": "Bebidas"
   },
   {
    "nombre": "Lemonade",
    "tipo": "Bebida",
-   "veces": 36,
-   "cantidad": 47,
-   "ingreso_mad": 1320,
+   "veces": 38,
+   "cantidad": 49,
+   "ingreso_mad": 1390,
    "precio_medio": 25,
    "categoria": "Bebidas"
   },
