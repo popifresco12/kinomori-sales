@@ -11,8 +11,8 @@
   "ingreso_mad": 92934.0,
   "ingreso_eur": 8605.0,
   "fotos": 45,
-  "lineas": 1513,
-  "platos_unicos": 113,
+  "lineas": 1514,
+  "platos_unicos": 112,
   "bebidas_unicas": 20
  },
  "fotos": [
@@ -284,25 +284,25 @@
    "foto": "45",
    "ingreso_mad": 4445.0,
    "ingreso_eur": 411.57,
-   "lineas": 73
+   "lineas": 74
   }
  ],
  "top_platos": [
   {
    "nombre": "Dumpling Beef",
    "tipo": "Plato",
-   "veces": 152,
-   "cantidad": 191,
-   "ingreso_mad": 12215,
+   "veces": 153,
+   "cantidad": 192,
+   "ingreso_mad": 12280,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
   {
    "nombre": "Peanut Noodles",
    "tipo": "Plato",
-   "veces": 113,
-   "cantidad": 127,
-   "ingreso_mad": 8175,
+   "veces": 114,
+   "cantidad": 128,
+   "ingreso_mad": 8240,
    "precio_medio": 65,
    "categoria": "Fideos"
   },
@@ -345,9 +345,9 @@
   {
    "nombre": "Pho",
    "tipo": "Plato",
-   "veces": 35,
-   "cantidad": 39,
-   "ingreso_mad": 2960,
+   "veces": 36,
+   "cantidad": 40,
+   "ingreso_mad": 3035,
    "precio_medio": 75,
    "categoria": "Fideos"
   },
@@ -543,15 +543,6 @@
    "categoria": "Bebidas"
   },
   {
-   "nombre": "Tea",
-   "tipo": "Bebida",
-   "veces": 6,
-   "cantidad": 6,
-   "ingreso_mad": 155,
-   "precio_medio": 20,
-   "categoria": "Bebidas"
-  },
-  {
    "nombre": "Apple Juice",
    "tipo": "Bebida",
    "veces": 5,
@@ -559,24 +550,33 @@
    "ingreso_mad": 45,
    "precio_medio": 15,
    "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Tea",
+   "tipo": "Bebida",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 135,
+   "precio_medio": 25,
+   "categoria": "Bebidas"
   }
  ],
  "todos_platos": [
   {
    "nombre": "Dumpling Beef",
    "tipo": "Plato",
-   "veces": 152,
-   "cantidad": 191,
-   "ingreso_mad": 12215,
+   "veces": 153,
+   "cantidad": 192,
+   "ingreso_mad": 12280,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
   {
    "nombre": "Peanut Noodles",
    "tipo": "Plato",
-   "veces": 113,
-   "cantidad": 127,
-   "ingreso_mad": 8175,
+   "veces": 114,
+   "cantidad": 128,
+   "ingreso_mad": 8240,
    "precio_medio": 65,
    "categoria": "Fideos"
   },
@@ -619,9 +619,9 @@
   {
    "nombre": "Pho",
    "tipo": "Plato",
-   "veces": 35,
-   "cantidad": 39,
-   "ingreso_mad": 2960,
+   "veces": 36,
+   "cantidad": 40,
+   "ingreso_mad": 3035,
    "precio_medio": 75,
    "categoria": "Fideos"
   },
@@ -995,15 +995,6 @@
    "categoria": "Sopas"
   },
   {
-   "nombre": "Thai Yum Som",
-   "tipo": "Plato",
-   "veces": 3,
-   "cantidad": 3,
-   "ingreso_mad": 225,
-   "precio_medio": 75,
-   "categoria": "Otros"
-  },
-  {
    "nombre": "Tropical Tea",
    "tipo": "Plato",
    "veces": 3,
@@ -1013,12 +1004,30 @@
    "categoria": "Otros"
   },
   {
+   "nombre": "TA (take away)",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 3,
+   "ingreso_mad": 15,
+   "precio_medio": 5,
+   "categoria": "Otros"
+  },
+  {
    "nombre": "Korean BBQ Chicken",
    "tipo": "Plato",
    "veces": 3,
    "cantidad": 3,
    "ingreso_mad": 240,
    "precio_medio": 80,
+   "categoria": "Otros"
+  },
+  {
+   "nombre": "Sparkling Water x3",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 3,
+   "ingreso_mad": 45,
+   "precio_medio": 15,
    "categoria": "Otros"
   },
   {
@@ -1148,6 +1157,15 @@
    "categoria": "Otros"
   },
   {
+   "nombre": "Thai Yum Som",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 150,
+   "precio_medio": 75,
+   "categoria": "Otros"
+  },
+  {
    "nombre": "Tropical Tea x2",
    "tipo": "Plato",
    "veces": 1,
@@ -1161,17 +1179,8 @@
    "tipo": "Plato",
    "veces": 2,
    "cantidad": 2,
-   "ingreso_mad": 130,
+   "ingreso_mad": 120,
    "precio_medio": 65,
-   "categoria": "Otros"
-  },
-  {
-   "nombre": "Sparkling Water x2",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 2,
-   "ingreso_mad": 35,
-   "precio_medio": 17.5,
    "categoria": "Otros"
   },
   {
@@ -1202,30 +1211,12 @@
    "categoria": "Otros"
   },
   {
-   "nombre": "TA (take away)",
-   "tipo": "Plato",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 10,
-   "precio_medio": 5,
-   "categoria": "Otros"
-  },
-  {
-   "nombre": "Nasi Goreng x2",
+   "nombre": "Mie Goreng Chicken x2",
    "tipo": "Plato",
    "veces": 1,
    "cantidad": 2,
    "ingreso_mad": 150,
    "precio_medio": 75,
-   "categoria": "Otros"
-  },
-  {
-   "nombre": "Mie Goreng x2",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 2,
-   "ingreso_mad": 130,
-   "precio_medio": 65,
    "categoria": "Otros"
   },
   {
@@ -1539,8 +1530,8 @@
    "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
-   "ingreso_mad": 60,
-   "precio_medio": 60,
+   "ingreso_mad": 75,
+   "precio_medio": 75,
    "categoria": "Otros"
   },
   {
@@ -1654,21 +1645,21 @@
    "categoria": "Bebidas"
   },
   {
-   "nombre": "Tea",
-   "tipo": "Bebida",
-   "veces": 6,
-   "cantidad": 6,
-   "ingreso_mad": 155,
-   "precio_medio": 20,
-   "categoria": "Bebidas"
-  },
-  {
    "nombre": "Apple Juice",
    "tipo": "Bebida",
    "veces": 5,
    "cantidad": 5,
    "ingreso_mad": 45,
    "precio_medio": 15,
+   "categoria": "Bebidas"
+  },
+  {
+   "nombre": "Tea",
+   "tipo": "Bebida",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 135,
+   "precio_medio": 25,
    "categoria": "Bebidas"
   },
   {
