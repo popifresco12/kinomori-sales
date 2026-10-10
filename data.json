@@ -8,8 +8,8 @@
   "nota": "Incluye 9 hojas de menú ampliado. Catálogo normalizado (sinónimos unificados). Bebidas fuera del top platos."
  },
  "totales": {
-  "ingreso_mad": 114334.0,
-  "ingreso_eur": 10586.48,
+  "ingreso_mad": 114459.0,
+  "ingreso_eur": 10598.06,
   "fotos": 52,
   "lineas": 1873,
   "platos_unicos": 144,
@@ -324,9 +324,9 @@
   },
   {
    "foto": "52",
-   "ingreso_mad": 3645.0,
-   "ingreso_eur": 337.5,
-   "lineas": 59
+   "ingreso_mad": 3770.0,
+   "ingreso_eur": 349.07,
+   "lineas": 60
   }
  ],
  "top_platos": [
@@ -334,8 +334,8 @@
    "nombre": "Dumpling Beef",
    "tipo": "Plato",
    "veces": 190,
-   "cantidad": 233,
-   "ingreso_mad": 14920,
+   "cantidad": 232,
+   "ingreso_mad": 14855,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
@@ -608,8 +608,8 @@
    "nombre": "Dumpling Beef",
    "tipo": "Plato",
    "veces": 190,
-   "cantidad": 233,
-   "ingreso_mad": 14920,
+   "cantidad": 232,
+   "ingreso_mad": 14855,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
