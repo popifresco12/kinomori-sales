@@ -8,8 +8,8 @@
   "nota": "Incluye 9 hojas de menú ampliado. Catálogo normalizado (sinónimos unificados). Bebidas fuera del top platos."
  },
  "totales": {
-  "ingreso_mad": 118394.0,
-  "ingreso_eur": 10962.41,
+  "ingreso_mad": 118264.0,
+  "ingreso_eur": 10950.37,
   "fotos": 53,
   "lineas": 1937,
   "platos_unicos": 146,
@@ -330,8 +330,8 @@
   },
   {
    "foto": "53",
-   "ingreso_mad": 3935.0,
-   "ingreso_eur": 364.35,
+   "ingreso_mad": 3805.0,
+   "ingreso_eur": 352.31,
    "lineas": 65
   }
  ],
@@ -341,7 +341,7 @@
    "tipo": "Plato",
    "veces": 199,
    "cantidad": 242,
-   "ingreso_mad": 15440,
+   "ingreso_mad": 15310,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
@@ -615,7 +615,7 @@
    "tipo": "Plato",
    "veces": 199,
    "cantidad": 242,
-   "ingreso_mad": 15440,
+   "ingreso_mad": 15310,
    "precio_medio": 65,
    "categoria": "Dumplings"
   },
