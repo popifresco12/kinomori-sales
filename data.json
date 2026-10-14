@@ -8,11 +8,11 @@
   "nota": "Incluye 9 hojas de menú ampliado. Catálogo normalizado (sinónimos unificados). Bebidas fuera del top platos."
  },
  "totales": {
-  "ingreso_mad": 126509.0,
-  "ingreso_eur": 11713.8,
+  "ingreso_mad": 126929.0,
+  "ingreso_eur": 11752.69,
   "fotos": 55,
-  "lineas": 2062,
-  "platos_unicos": 149,
+  "lineas": 2063,
+  "platos_unicos": 151,
   "bebidas_unicas": 20
  },
  "fotos": [
@@ -342,9 +342,9 @@
   },
   {
    "foto": "55",
-   "ingreso_mad": 3785.0,
-   "ingreso_eur": 350.46,
-   "lineas": 65
+   "ingreso_mad": 4205.0,
+   "ingreso_eur": 389.35,
+   "lineas": 66
   }
  ],
  "top_platos": [
@@ -1280,15 +1280,6 @@
    "categoria": "Otros"
   },
   {
-   "nombre": "suma de subtotales del dueno",
-   "tipo": "Plato",
-   "veces": 3,
-   "cantidad": 3,
-   "ingreso_mad": 0,
-   "precio_medio": null,
-   "categoria": "Otros"
-  },
-  {
    "nombre": "Rice Combo",
    "tipo": "Plato",
    "veces": 2,
@@ -1493,6 +1484,15 @@
    "cantidad": 2,
    "ingreso_mad": 150,
    "precio_medio": 75,
+   "categoria": "Otros"
+  },
+  {
+   "nombre": "suma de subtotales del dueno",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 0,
+   "precio_medio": null,
    "categoria": "Otros"
   },
   {
@@ -1961,6 +1961,24 @@
    "cantidad": 1,
    "ingreso_mad": 25,
    "precio_medio": 25,
+   "categoria": "Otros"
+  },
+  {
+   "nombre": "Ropa + Collar",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 420,
+   "precio_medio": 420,
+   "categoria": "Otros"
+  },
+  {
+   "nombre": "suma de subtotales del dueno (incluye la venta de tienda)",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 0,
+   "precio_medio": null,
    "categoria": "Otros"
   }
  ],
