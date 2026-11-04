@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Kinomori — Dashboard de Ventas</title>
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="vendor/chart.umd.min.js"></script>
 <style>
   :root {
     --bg: #14100e;
@@ -209,8 +209,14 @@ function chartTopBebidas() {
   });
 }
 
+function fmtFecha(iso) {
+  if (!iso) return null;
+  const p = iso.split('-');
+  return p[2] + '/' + p[1];
+}
+
 function chartIngresosDia() {
-  const labels = fotos.map(f => 'Foto ' + f.foto);
+  const labels = fotos.map(f => (f.fecha ? fmtFecha(f.fecha) : 'Foto ' + f.foto));
   const data = fotos.map(f => Math.round(f.ingreso_mad));
   new Chart(document.getElementById('ingresosDia'), {
     type: 'bar',
@@ -224,7 +230,9 @@ function chartIngresosDia() {
       }]
     },
     options: {
-      plugins: { legend: { display: false } },
+      plugins: { legend: { display: false }, tooltip: { callbacks: {
+        title: (items) => { const f = fotos[items[0].dataIndex]; return 'Foto ' + f.foto + (f.fecha ? ' · ' + f.fecha : ''); }
+      } } },
       scales: {
         x: { grid: { display: false }, ticks: { color: '#a89884', font: { size: 9 } } },
         y: { grid: { color: 'rgba(255,255,255,0.06)' }, ticks: { color: '#a89884' } }
