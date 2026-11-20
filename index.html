@@ -327,8 +327,8 @@ function chartCategorias() {
     document.getElementById('metaDate').textContent = '📅 Datos: ' + (meta.generated_at || '') + ' · ' + (meta.moneda || '');
     document.getElementById('metaFooter').textContent = meta.nota || '';
 
-    rankArroz = data.rank_arroz || [];
-    rankNoodles = data.rank_noodles || [];
+    rankArroz = d.rank_arroz || [];
+    rankNoodles = d.rank_noodles || [];
     renderStats();
     renderTablas();
     chartTopPlatos();
