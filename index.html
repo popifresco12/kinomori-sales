@@ -140,6 +140,11 @@
     <div class="note">Todas las referencias de arroz, ordenadas por unidades vendidas</div>
   </div>
   <div class="chart-card full">
+    <h3>🥢 Salteados y wok</h3>
+    <table class="rank-table" id="tablaWok"></table>
+    <div class="note">Kung Pao no es arroz ni noodle: aquí tiene su sitio</div>
+  </div>
+  <div class="chart-card full">
     <h3>🍜 Ranking completo de noodles</h3>
     <table class="rank-table" id="tablaNoodles"></table>
     <div class="note">Todos los fideos, ordenados por unidades. Mee Siam no va aquí: cuenta como curries</div>
@@ -153,7 +158,7 @@
 
 <script>
 let topPlatos = [], topBebidas = [], fotos = [], totales = {}, meta = {};
-let rankArroz = [], rankNoodles = [];
+let rankArroz = [], rankNoodles = [], rankWok = [];
 
 function fmtMAD(v) { return Math.round(v).toLocaleString('es-ES') + ' MAD'; }
 function fmtEUR(v) { return '≈ ' + Math.round(v).toLocaleString('es-ES') + ' €'; }
@@ -180,7 +185,7 @@ function tabla(cont, arr, etiqueta) {
     }).join('') + '</tbody>';
 }
 
-function renderTablas() { tabla('tablaArroz', rankArroz, 'Arroz'); tabla('tablaNoodles', rankNoodles, 'Noodles'); }
+function renderTablas() { tabla('tablaArroz', rankArroz, 'Arroz'); tabla('tablaNoodles', rankNoodles, 'Noodles'); tabla('tablaWok', rankWok, 'Plato'); }
 
 function renderStats() {
   const grid = document.getElementById('statsGrid');
@@ -329,6 +334,7 @@ function chartCategorias() {
 
     rankArroz = d.rank_arroz || [];
     rankNoodles = d.rank_noodles || [];
+    rankWok = d.rank_wok || [];
     renderStats();
     renderTablas();
     chartTopPlatos();

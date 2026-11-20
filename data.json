@@ -12,7 +12,7 @@
   "ingreso_eur": 12856.39,
   "fotos": 59,
   "lineas": 2188,
-  "platos_unicos": 117,
+  "platos_unicos": 112,
   "bebidas_unicas": 28
  },
  "fotos": [
@@ -450,6 +450,15 @@
    "categoria": "Fideos"
   },
   {
+   "nombre": "Nasi Goreng",
+   "tipo": "Plato",
+   "veces": 146,
+   "cantidad": 165,
+   "ingreso_mad": 10420,
+   "precio_medio": 65,
+   "categoria": "Arroz & Salteados"
+  },
+  {
    "nombre": "Dumpling Veg",
    "tipo": "Plato",
    "veces": 123,
@@ -457,15 +466,6 @@
    "ingreso_mad": 8251,
    "precio_medio": 60,
    "categoria": "Dumplings"
-  },
-  {
-   "nombre": "Nasi Goreng",
-   "tipo": "Plato",
-   "veces": 125,
-   "cantidad": 144,
-   "ingreso_mad": 8875,
-   "precio_medio": 65,
-   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Thai Kra Pao Beef Rice",
@@ -486,6 +486,15 @@
    "categoria": "Fideos"
   },
   {
+   "nombre": "Korean Bibimbap",
+   "tipo": "Plato",
+   "veces": 71,
+   "cantidad": 76,
+   "ingreso_mad": 5590,
+   "precio_medio": 75,
+   "categoria": "Arroz & Salteados"
+  },
+  {
    "nombre": "Mee Siam",
    "tipo": "Plato",
    "veces": 58,
@@ -493,15 +502,6 @@
    "ingreso_mad": 4095,
    "precio_medio": 60,
    "categoria": "Curries"
-  },
-  {
-   "nombre": "Korean BBQ Bowl",
-   "tipo": "Plato",
-   "veces": 60,
-   "cantidad": 65,
-   "ingreso_mad": 4675,
-   "precio_medio": 75,
-   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Dandan Noodles",
@@ -594,20 +594,20 @@
    "categoria": "Arroz & Salteados"
   },
   {
-   "nombre": "Nasi Goreng Chicken",
-   "tipo": "Plato",
-   "veces": 18,
-   "cantidad": 18,
-   "ingreso_mad": 1350,
-   "precio_medio": 75,
-   "categoria": "Arroz & Salteados"
-  },
-  {
    "nombre": "Pandan Noodles",
    "tipo": "Plato",
    "veces": 16,
    "cantidad": 17,
    "ingreso_mad": 1260,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Biang Biang Mian",
+   "tipo": "Plato",
+   "veces": 14,
+   "cantidad": 16,
+   "ingreso_mad": 1130,
    "precio_medio": 75,
    "categoria": "Fideos"
   }
@@ -724,6 +724,15 @@
    "categoria": "Fideos"
   },
   {
+   "nombre": "Nasi Goreng",
+   "tipo": "Plato",
+   "veces": 146,
+   "cantidad": 165,
+   "ingreso_mad": 10420,
+   "precio_medio": 65,
+   "categoria": "Arroz & Salteados"
+  },
+  {
    "nombre": "Dumpling Veg",
    "tipo": "Plato",
    "veces": 123,
@@ -731,15 +740,6 @@
    "ingreso_mad": 8251,
    "precio_medio": 60,
    "categoria": "Dumplings"
-  },
-  {
-   "nombre": "Nasi Goreng",
-   "tipo": "Plato",
-   "veces": 125,
-   "cantidad": 144,
-   "ingreso_mad": 8875,
-   "precio_medio": 65,
-   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Thai Kra Pao Beef Rice",
@@ -760,6 +760,15 @@
    "categoria": "Fideos"
   },
   {
+   "nombre": "Korean Bibimbap",
+   "tipo": "Plato",
+   "veces": 71,
+   "cantidad": 76,
+   "ingreso_mad": 5590,
+   "precio_medio": 75,
+   "categoria": "Arroz & Salteados"
+  },
+  {
    "nombre": "Mee Siam",
    "tipo": "Plato",
    "veces": 58,
@@ -767,15 +776,6 @@
    "ingreso_mad": 4095,
    "precio_medio": 60,
    "categoria": "Curries"
-  },
-  {
-   "nombre": "Korean BBQ Bowl",
-   "tipo": "Plato",
-   "veces": 60,
-   "cantidad": 65,
-   "ingreso_mad": 4675,
-   "precio_medio": 75,
-   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Dandan Noodles",
@@ -868,15 +868,6 @@
    "categoria": "Arroz & Salteados"
   },
   {
-   "nombre": "Nasi Goreng Chicken",
-   "tipo": "Plato",
-   "veces": 18,
-   "cantidad": 18,
-   "ingreso_mad": 1350,
-   "precio_medio": 75,
-   "categoria": "Arroz & Salteados"
-  },
-  {
    "nombre": "Pandan Noodles",
    "tipo": "Plato",
    "veces": 16,
@@ -956,15 +947,6 @@
    "ingreso_mad": 650,
    "precio_medio": 65,
    "categoria": "Otros"
-  },
-  {
-   "nombre": "Korean BBQ Bowl Chicken",
-   "tipo": "Plato",
-   "veces": 10,
-   "cantidad": 10,
-   "ingreso_mad": 825,
-   "precio_medio": 85,
-   "categoria": "Combos & Bowls"
   },
   {
    "nombre": "Goji Soup",
@@ -1336,15 +1318,6 @@
    "categoria": "Fideos"
   },
   {
-   "nombre": "Nasi Goreng Veggie",
-   "tipo": "Plato",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 130,
-   "precio_medio": 65,
-   "categoria": "Arroz & Salteados"
-  },
-  {
    "nombre": "Kung Pao au",
    "tipo": "Plato",
    "veces": 2,
@@ -1696,15 +1669,6 @@
    "categoria": "Fideos"
   },
   {
-   "nombre": "Nasi Goreng Veggie no egg",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 65,
-   "precio_medio": 65,
-   "categoria": "Arroz & Salteados"
-  },
-  {
    "nombre": "Package",
    "tipo": "Plato",
    "veces": 1,
@@ -1730,15 +1694,6 @@
    "ingreso_mad": 65,
    "precio_medio": 65,
    "categoria": "Fideos"
-  },
-  {
-   "nombre": "Bibimbap Veggie",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 90,
-   "precio_medio": 90,
-   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Won Ton",
@@ -2037,9 +1992,9 @@
   {
    "nombre": "Nasi Goreng",
    "tipo": "Plato",
-   "veces": 125,
-   "cantidad": 144,
-   "ingreso_mad": 8875,
+   "veces": 146,
+   "cantidad": 165,
+   "ingreso_mad": 10420,
    "precio_medio": 65,
    "categoria": "Arroz & Salteados"
   },
@@ -2053,13 +2008,13 @@
    "categoria": "Arroz & Salteados"
   },
   {
-   "nombre": "Korean BBQ Bowl",
+   "nombre": "Korean Bibimbap",
    "tipo": "Plato",
-   "veces": 60,
-   "cantidad": 65,
-   "ingreso_mad": 4675,
+   "veces": 71,
+   "cantidad": 76,
+   "ingreso_mad": 5590,
    "precio_medio": 75,
-   "categoria": "Combos & Bowls"
+   "categoria": "Arroz & Salteados"
   },
   {
    "nombre": "Hainan Chicken",
@@ -2080,39 +2035,12 @@
    "categoria": "Arroz & Salteados"
   },
   {
-   "nombre": "Nasi Goreng Chicken",
-   "tipo": "Plato",
-   "veces": 18,
-   "cantidad": 18,
-   "ingreso_mad": 1350,
-   "precio_medio": 75,
-   "categoria": "Arroz & Salteados"
-  },
-  {
-   "nombre": "Korean BBQ Bowl Chicken",
-   "tipo": "Plato",
-   "veces": 10,
-   "cantidad": 10,
-   "ingreso_mad": 825,
-   "precio_medio": 85,
-   "categoria": "Combos & Bowls"
-  },
-  {
    "nombre": "Rice Combo",
    "tipo": "Plato",
    "veces": 2,
    "cantidad": 2,
    "ingreso_mad": 70,
    "precio_medio": 70,
-   "categoria": "Arroz & Salteados"
-  },
-  {
-   "nombre": "Nasi Goreng Veggie",
-   "tipo": "Plato",
-   "veces": 2,
-   "cantidad": 2,
-   "ingreso_mad": 130,
-   "precio_medio": 65,
    "categoria": "Arroz & Salteados"
   },
   {
@@ -2134,39 +2062,12 @@
    "categoria": "Arroz & Salteados"
   },
   {
-   "nombre": "Bibimbap",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 65,
-   "precio_medio": 65,
-   "categoria": "Arroz & Salteados"
-  },
-  {
    "nombre": "Fried Rice",
    "tipo": "Plato",
    "veces": 1,
    "cantidad": 1,
    "ingreso_mad": 60,
    "precio_medio": 60,
-   "categoria": "Arroz & Salteados"
-  },
-  {
-   "nombre": "Nasi Goreng Veggie no egg",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 65,
-   "precio_medio": 65,
-   "categoria": "Arroz & Salteados"
-  },
-  {
-   "nombre": "Bibimbap Veggie",
-   "tipo": "Plato",
-   "veces": 1,
-   "cantidad": 1,
-   "ingreso_mad": 90,
-   "precio_medio": 90,
    "categoria": "Arroz & Salteados"
   }
  ],
@@ -2485,6 +2386,26 @@
    "ingreso_mad": 65,
    "precio_medio": 65,
    "categoria": "Fideos"
+  }
+ ],
+ "rank_wok": [
+  {
+   "nombre": "Kung Pao",
+   "tipo": "Plato",
+   "veces": 39,
+   "cantidad": 41,
+   "ingreso_mad": 2955,
+   "precio_medio": 75,
+   "categoria": "Otros"
+  },
+  {
+   "nombre": "Kung Pao au",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 170,
+   "precio_medio": 85,
+   "categoria": "Otros"
   }
  ]
 }
