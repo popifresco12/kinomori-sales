@@ -2032,5 +2032,459 @@
    "precio_medio": 685,
    "categoria": "Tienda"
   }
+ ],
+ "rank_arroz": [
+  {
+   "nombre": "Nasi Goreng",
+   "tipo": "Plato",
+   "veces": 125,
+   "cantidad": 144,
+   "ingreso_mad": 8875,
+   "precio_medio": 65,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Thai Kra Pao Beef Rice",
+   "tipo": "Plato",
+   "veces": 87,
+   "cantidad": 94,
+   "ingreso_mad": 6965,
+   "precio_medio": 75,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Korean BBQ Bowl",
+   "tipo": "Plato",
+   "veces": 60,
+   "cantidad": 65,
+   "ingreso_mad": 4675,
+   "precio_medio": 75,
+   "categoria": "Combos & Bowls"
+  },
+  {
+   "nombre": "Hainan Chicken",
+   "tipo": "Plato",
+   "veces": 44,
+   "cantidad": 46,
+   "ingreso_mad": 3555,
+   "precio_medio": 80,
+   "categoria": "Otros"
+  },
+  {
+   "nombre": "Eggplant Lover",
+   "tipo": "Plato",
+   "veces": 20,
+   "cantidad": 22,
+   "ingreso_mad": 1410,
+   "precio_medio": 70,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Nasi Goreng Chicken",
+   "tipo": "Plato",
+   "veces": 18,
+   "cantidad": 18,
+   "ingreso_mad": 1350,
+   "precio_medio": 75,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Korean BBQ Bowl Chicken",
+   "tipo": "Plato",
+   "veces": 10,
+   "cantidad": 10,
+   "ingreso_mad": 825,
+   "precio_medio": 85,
+   "categoria": "Combos & Bowls"
+  },
+  {
+   "nombre": "Rice Combo",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 70,
+   "precio_medio": 70,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Nasi Goreng Veggie",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 130,
+   "precio_medio": 65,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Rice Combo Thai/Disan",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 0,
+   "precio_medio": null,
+   "categoria": "Combos & Bowls"
+  },
+  {
+   "nombre": "Sichuan Mala Rice",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 75,
+   "precio_medio": 75,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Bibimbap",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 65,
+   "precio_medio": 65,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Fried Rice",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 60,
+   "precio_medio": 60,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Nasi Goreng Veggie no egg",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 65,
+   "precio_medio": 65,
+   "categoria": "Arroz & Salteados"
+  },
+  {
+   "nombre": "Bibimbap Veggie",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 90,
+   "precio_medio": 90,
+   "categoria": "Arroz & Salteados"
+  }
+ ],
+ "rank_noodles": [
+  {
+   "nombre": "Peanut Noodles",
+   "tipo": "Plato",
+   "veces": 150,
+   "cantidad": 167,
+   "ingreso_mad": 10765,
+   "precio_medio": 65,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Pho",
+   "tipo": "Plato",
+   "veces": 76,
+   "cantidad": 87,
+   "ingreso_mad": 6560,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Dandan Noodles",
+   "tipo": "Plato",
+   "veces": 44,
+   "cantidad": 55,
+   "ingreso_mad": 3790,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Mie Goreng",
+   "tipo": "Plato",
+   "veces": 48,
+   "cantidad": 53,
+   "ingreso_mad": 3600,
+   "precio_medio": 70,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Zhajiang Noodles",
+   "tipo": "Plato",
+   "veces": 38,
+   "cantidad": 42,
+   "ingreso_mad": 2910,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Soup Noodles",
+   "tipo": "Plato",
+   "veces": 19,
+   "cantidad": 29,
+   "ingreso_mad": 1840,
+   "precio_medio": 65,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Thai Yum Sen Mee Gai",
+   "tipo": "Plato",
+   "veces": 26,
+   "cantidad": 29,
+   "ingreso_mad": 2020,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Mie Goreng Chicken",
+   "tipo": "Plato",
+   "veces": 19,
+   "cantidad": 24,
+   "ingreso_mad": 1820,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Pandan Noodles",
+   "tipo": "Plato",
+   "veces": 16,
+   "cantidad": 17,
+   "ingreso_mad": 1260,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Biang Biang Mian",
+   "tipo": "Plato",
+   "veces": 14,
+   "cantidad": 16,
+   "ingreso_mad": 1130,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Sichuan Noodles",
+   "tipo": "Plato",
+   "veces": 11,
+   "cantidad": 12,
+   "ingreso_mad": 745,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Cold Noodles",
+   "tipo": "Plato",
+   "veces": 12,
+   "cantidad": 12,
+   "ingreso_mad": 695,
+   "precio_medio": 60,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Yunnan Soup Noodles",
+   "tipo": "Plato",
+   "veces": 8,
+   "cantidad": 9,
+   "ingreso_mad": 675,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Beijing Zhajiang",
+   "tipo": "Plato",
+   "veces": 8,
+   "cantidad": 9,
+   "ingreso_mad": 695,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Miso Dandan",
+   "tipo": "Plato",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 375,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Mie Goreng V",
+   "tipo": "Plato",
+   "veces": 5,
+   "cantidad": 5,
+   "ingreso_mad": 315,
+   "precio_medio": 65,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Beijing Noodles",
+   "tipo": "Plato",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 305,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Goji Noodles",
+   "tipo": "Plato",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 300,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Peanut Sauce Tossed Noodles",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 4,
+   "ingreso_mad": 260,
+   "precio_medio": 65,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Peanut Noodles V",
+   "tipo": "Plato",
+   "veces": 4,
+   "cantidad": 4,
+   "ingreso_mad": 245,
+   "precio_medio": 60,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Peanut Noodles Chicken",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 3,
+   "ingreso_mad": 210,
+   "precio_medio": 70,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Mie Goreng Veggie",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 3,
+   "ingreso_mad": 195,
+   "precio_medio": 65,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Thai Yam Sen Mee",
+   "tipo": "Plato",
+   "veces": 3,
+   "cantidad": 3,
+   "ingreso_mad": 230,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Pho no chicken",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 3,
+   "ingreso_mad": 235,
+   "precio_medio": 85,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Pho Soup",
+   "tipo": "Plato",
+   "veces": 2,
+   "cantidad": 2,
+   "ingreso_mad": 150,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Peanut Noodle TA",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 70,
+   "precio_medio": 70,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Peanut Noodle Ice",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 60,
+   "precio_medio": 60,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Hakka Noodles",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 75,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Thai Guay Teow",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 70,
+   "precio_medio": 70,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "DanDan",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 65,
+   "precio_medio": 65,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Sichuan DanDan",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 75,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Pho Udon",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 75,
+   "precio_medio": 75,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Thai Pad Thai",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 75,
+   "precio_medio": 75,
+   "categoria": "Otros"
+  },
+  {
+   "nombre": "Thai Yam Sen Mee Gai Chicken",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 80,
+   "precio_medio": 80,
+   "categoria": "Fideos"
+  },
+  {
+   "nombre": "Mie Goreng no peanut",
+   "tipo": "Plato",
+   "veces": 1,
+   "cantidad": 1,
+   "ingreso_mad": 65,
+   "precio_medio": 65,
+   "categoria": "Fideos"
+  }
  ]
 }
